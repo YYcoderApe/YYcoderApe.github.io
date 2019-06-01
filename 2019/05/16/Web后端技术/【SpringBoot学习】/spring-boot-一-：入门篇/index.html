@@ -117,7 +117,7 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yycoderape.github.io/uploads/springBoot_01.jpg">
 <meta property="og:image" content="https://images2015.cnblogs.com/blog/331425/201607/331425-20160712105138029-1564953731.png">
-<meta property="og:updated_time" content="2019-06-01T16:39:32.697Z">
+<meta property="og:updated_time" content="2019-06-01T16:41:01.425Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Spring Boot(一)：入门篇">
 <meta name="twitter:description" content="构建微服务：Spring boot 入门篇什么是Spring Boot?Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用来简化新 Spring 应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。其实Spring Boot 不是什么新的框架，它只是默认配置了很多框架的使用方式，就像 Maven 整合了所有的 Jar">
@@ -491,7 +491,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-06-02 00:39:32" itemprop="dateModified" datetime="2019-06-02T00:39:32+08:00">2019-06-02</time>
+                <time title="修改时间：2019-06-02 00:41:01" itemprop="dateModified" datetime="2019-06-02T00:41:01+08:00">2019-06-02</time>
               
             
           </span>
@@ -585,10 +585,17 @@
 
       
         <h1 id="构建微服务：Spring-boot-入门篇"><a href="#构建微服务：Spring-boot-入门篇" class="headerlink" title="构建微服务：Spring boot 入门篇"></a><center><strong><font color="#008000">构建微服务：Spring boot 入门篇</font></strong></center></h1><h2 id="什么是Spring-Boot"><a href="#什么是Spring-Boot" class="headerlink" title="什么是Spring Boot?"></a><font color="gray">什么是Spring Boot?</font></h2><p>Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用来简化新 Spring 应用的初始搭建以及开发过<br>程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。其实Spring Boot 不<br>是什么新的框架，它只是默认配置了很多框架的使用方式，就像 Maven 整合了所有的 Jar 包，Spring Boot 整<br>合了所有的框架。</p>
-<h2 id="使用-Spring-Boot有什么好处"><a href="#使用-Spring-Boot有什么好处" class="headerlink" title="使用 Spring Boot有什么好处"></a><font color="gray">使用 Spring Boot有什么好处</font></h2><h3 id="其实就是简单、快速、方便！"><a href="#其实就是简单、快速、方便！" class="headerlink" title="其实就是简单、快速、方便！"></a>其实就是简单、快速、方便！</h3><font color="green">平时如果我们需要搭建一个 Spring Web 项目的时候需要怎么做呢？</font><br><em> 1）配置 web.xml，加载 Spring 和 Spring mvc  
-</em> 2）配置数据库连接、配置 Spring 事务<br><em> 3）配置加载配置文件的读取，开启注解  
-</em> 4）配置日志文件<br><em> ····  
-</em> 配置完成之后部署 Tomcat 调试<br>想象一下如果生产项目，只是为了实现简单的一个发送消息的功能，都<br>需要这样折腾一遍!<br><br><font color="green">但是如果使用 Spring Boot 呢？</font>  
+<h2 id="使用-Spring-Boot有什么好处"><a href="#使用-Spring-Boot有什么好处" class="headerlink" title="使用 Spring Boot有什么好处"></a><font color="gray">使用 Spring Boot有什么好处</font></h2><h3 id="其实就是简单、快速、方便！"><a href="#其实就是简单、快速、方便！" class="headerlink" title="其实就是简单、快速、方便！"></a>其实就是简单、快速、方便！</h3><font color="green">平时如果我们需要搭建一个 Spring Web 项目的时候需要怎么做呢？</font>  
+
+<ul>
+<li>1）配置 web.xml，加载 Spring 和 Spring mvc  </li>
+<li>2）配置数据库连接、配置 Spring 事务  </li>
+<li>3）配置加载配置文件的读取，开启注解  </li>
+<li>4）配置日志文件  </li>
+<li>····  </li>
+<li>配置完成之后部署 Tomcat 调试<br>想象一下如果生产项目，只是为了实现简单的一个发送消息的功能，都<br>需要这样折腾一遍!</li>
+</ul>
+<font color="green">但是如果使用 Spring Boot 呢？</font>  
 
 <p>很简单，我仅仅只需要非常少的几个配置就可以迅速方便的搭建起来一套 Web 项目或者是构建一个微服务！</p>
 <h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a><strong>快速入门</strong></h2><blockquote>
@@ -636,7 +643,7 @@
 <p>@RestController的意思就是controller里面的方法都以json格式输出，不用再写什么jackjson配置的了！</p>
 <p>3、启动主程序，打开浏览器访问<a href="http://localhost:8080/hello" target="_blank" rel="noopener">http://localhost:8080/hello</a>, 就可以看到效果了，是不是很简单粗暴！</p>
 <h3 id="如何做单元测试"><a href="#如何做单元测试" class="headerlink" title="如何做单元测试"></a>如何做单元测试</h3><p>打开的src/test/下的测试入口，编写简单的http请求来测试；使用mockmvc进行，利用MockMvcResultHandlers.print()<br>打印出执行结果。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">  @RunWith(SpringRunner.class)</span><br><span class="line">  @SpringBootTest</span><br><span class="line"></span><br><span class="line">    public class HelloWorldControlerTests &#123;</span><br><span class="line">        private MockMvc mvc;</span><br><span class="line">        @Before</span><br><span class="line">        public void setUp() throws Exception &#123;</span><br><span class="line">            mvc = MockMvcBuilders.standaloneSetup(new HelloWorldController()).build();</span><br><span class="line">        &#125;</span><br><span class="line">        @Test</span><br><span class="line">        public void getHello() throws Exception &#123;</span><br><span class="line">        mvc.perform(MockMvcRequestBuilders.get(&quot;/hello&quot;).accept(MediaType.APPLICATION_JSON))</span><br><span class="line">                .andExpect(MockMvcResultMatchers.status().isOk())</span><br><span class="line">                .andDo(MockMvcResultHandlers.print())</span><br><span class="line">                .andReturn();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h3 id="开发环境的调试"><a href="#开发环境的调试" class="headerlink" title="开发环境的调试"></a>开发环境的调试</h3><p>热启动在正常开发项目中已经很常见了吧，虽然平时开发 web 项目过程中，改动项目启重启总是报错；但 Spring Boot<br>对调试支持很好，修改之后可以实时生效，需要添加以下的配置：</p>
+<h3 id="开发环境的调试"><a href="#开发环境的调试" class="headerlink" title="开发环境的调试"></a>开发环境的调试</h3><p>热启动在正常开发项目中已经很常见了吧，虽然平时开发 web 项目过程中，改动项目启重启总是报错；但 Spring Boot对<br>调试支持很好，修改之后可以实时生效，需要添加以下的配置：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line"></span><br><span class="line">    &lt;dependency&gt;</span><br><span class="line"></span><br><span class="line">        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</span><br><span class="line"></span><br><span class="line">        &lt;artifactId&gt;spring-boot-devtools&lt;/artifactId&gt;</span><br><span class="line"></span><br><span class="line">        &lt;optional&gt;true&lt;/optional&gt;</span><br><span class="line"></span><br><span class="line">   &lt;/dependency&gt;</span><br><span class="line"></span><br><span class="line">&lt;/dependencies&gt;</span><br><span class="line"></span><br><span class="line">&lt;build&gt;</span><br><span class="line"></span><br><span class="line">    &lt;plugins&gt;</span><br><span class="line"></span><br><span class="line">        &lt;plugin&gt;</span><br><span class="line"></span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</span><br><span class="line"></span><br><span class="line">            &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;</span><br><span class="line"></span><br><span class="line">            &lt;configuration&gt;</span><br><span class="line"></span><br><span class="line">                &lt;fork&gt;true&lt;/fork&gt;</span><br><span class="line"></span><br><span class="line">            &lt;/configuration&gt;</span><br><span class="line"></span><br><span class="line">        &lt;/plugin&gt;</span><br><span class="line"></span><br><span class="line">   &lt;/plugins&gt;</span><br><span class="line"></span><br><span class="line">&lt;/build&gt;</span><br></pre></td></tr></table></figure>
 <p>该模块在完整的打包环境下运行的时候会被禁用。如果你使用java -jar启动应用或者用一个特定的classloader启动，它会认为这是一个“生产环境”。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>使用 Spring Boot 可以非常方便、快速搭建项目，使我们不用关心框架之间的兼容性，适用版本等各种问题，我们想使用任何东西，仅仅添加一个配置就可以，所以使用 Spring Boot 非常适合构建微服务。</p>
