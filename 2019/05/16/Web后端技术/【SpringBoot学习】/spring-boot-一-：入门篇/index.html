@@ -107,16 +107,21 @@
 
 
 
-  <meta name="description" content="打码如此快乐">
-<meta property="og:type" content="website">
-<meta property="og:title" content="YYcoder">
-<meta property="og:url" content="http://YYCoderApe.github.io/archives/2019/04/index.html">
+  <meta name="description" content="构建微服务：Spring boot 入门篇什么是Spring Boot?Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用来简化新 Spring 应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。其实Spring Boot 不是什么新的框架，它只是默认配置了很多框架的使用方式，就像 Maven 整合了所有的 Jar">
+<meta name="keywords" content="框架学习">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spring Boot(一)：入门篇">
+<meta property="og:url" content="http://YYCoderApe.github.io/2019/05/16/Web后端技术/【SpringBoot学习】/spring-boot-一-：入门篇/index.html">
 <meta property="og:site_name" content="YYcoder">
-<meta property="og:description" content="打码如此快乐">
+<meta property="og:description" content="构建微服务：Spring boot 入门篇什么是Spring Boot?Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用来简化新 Spring 应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。其实Spring Boot 不是什么新的框架，它只是默认配置了很多框架的使用方式，就像 Maven 整合了所有的 Jar">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/springBoot_01.jpg">
+<meta property="og:image" content="https://images2015.cnblogs.com/blog/331425/201607/331425-20160712105138029-1564953731.png">
+<meta property="og:updated_time" content="2019-06-01T16:39:32.697Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="YYcoder">
-<meta name="twitter:description" content="打码如此快乐">
+<meta name="twitter:title" content="Spring Boot(一)：入门篇">
+<meta name="twitter:description" content="构建微服务：Spring boot 入门篇什么是Spring Boot?Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用来简化新 Spring 应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。其实Spring Boot 不是什么新的框架，它只是默认配置了很多框架的使用方式，就像 Maven 整合了所有的 Jar">
+<meta name="twitter:image" content="http://yycoderape.github.io/uploads/springBoot_01.jpg">
 
 
 
@@ -125,7 +130,7 @@
 
 
 
-  <link rel="canonical" href="http://YYCoderApe.github.io/archives/2019/04/">
+  <link rel="canonical" href="http://YYCoderApe.github.io/2019/05/16/Web后端技术/【SpringBoot学习】/spring-boot-一-：入门篇/">
 
 
 
@@ -135,7 +140,7 @@
   };
 </script>
 
-  <title>归档 | YYcoder</title>
+  <title>Spring Boot(一)：入门篇 | YYcoder</title>
   
 
 
@@ -186,7 +191,7 @@
   
       <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
   
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <a href="https://github.com/yycoderape">
@@ -301,7 +306,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
 
     
     
@@ -406,180 +411,351 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://YYCoderApe.github.io/2019/05/16/Web后端技术/【SpringBoot学习】/spring-boot-一-：入门篇/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="YYcoder">
+      <meta itemprop="description" content="打码如此快乐">
+      <meta itemprop="image" content="/images/头像1.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="YYcoder">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Spring Boot(一)：入门篇
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-05-16 19:46:20" itemprop="dateCreated datePublished" datetime="2019-05-16T19:46:20+08:00">2019-05-16</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-02 00:39:32" itemprop="dateModified" datetime="2019-06-02T00:39:32+08:00">2019-06-02</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Web后端技术/" itemprop="url" rel="index"><span itemprop="name">Web后端技术</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Web后端技术/【SpringBoot学习】/" itemprop="url" rel="index"><span itemprop="name">【SpringBoot学习】</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">4.1k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">4 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-      <span class="archive-page-counter">
+      
+
+      
+        <h1 id="构建微服务：Spring-boot-入门篇"><a href="#构建微服务：Spring-boot-入门篇" class="headerlink" title="构建微服务：Spring boot 入门篇"></a><center><strong><font color="#008000">构建微服务：Spring boot 入门篇</font></strong></center></h1><h2 id="什么是Spring-Boot"><a href="#什么是Spring-Boot" class="headerlink" title="什么是Spring Boot?"></a><font color="gray">什么是Spring Boot?</font></h2><p>Spring Boot 是由 Pivotal 团队提供的全新框架，其设计目的是用来简化新 Spring 应用的初始搭建以及开发过<br>程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。其实Spring Boot 不<br>是什么新的框架，它只是默认配置了很多框架的使用方式，就像 Maven 整合了所有的 Jar 包，Spring Boot 整<br>合了所有的框架。</p>
+<h2 id="使用-Spring-Boot有什么好处"><a href="#使用-Spring-Boot有什么好处" class="headerlink" title="使用 Spring Boot有什么好处"></a><font color="gray">使用 Spring Boot有什么好处</font></h2><h3 id="其实就是简单、快速、方便！"><a href="#其实就是简单、快速、方便！" class="headerlink" title="其实就是简单、快速、方便！"></a>其实就是简单、快速、方便！</h3><font color="green">平时如果我们需要搭建一个 Spring Web 项目的时候需要怎么做呢？</font><br><em> 1）配置 web.xml，加载 Spring 和 Spring mvc  
+</em> 2）配置数据库连接、配置 Spring 事务<br><em> 3）配置加载配置文件的读取，开启注解  
+</em> 4）配置日志文件<br><em> ····  
+</em> 配置完成之后部署 Tomcat 调试<br>想象一下如果生产项目，只是为了实现简单的一个发送消息的功能，都<br>需要这样折腾一遍!<br><br><font color="green">但是如果使用 Spring Boot 呢？</font>  
+
+<p>很简单，我仅仅只需要非常少的几个配置就可以迅速方便的搭建起来一套 Web 项目或者是构建一个微服务！</p>
+<h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a><strong>快速入门</strong></h2><blockquote>
+<font color="gray">说了那么多，不如马上来动手试一试!</font> 
+</blockquote>
+<h3 id="Maven-构建项目"><a href="#Maven-构建项目" class="headerlink" title="Maven 构建项目"></a><strong>Maven 构建项目</strong></h3><ul>
+<li><p>1、访问 <a href="http://start.spring.io/" target="_blank" rel="noopener">http://start.spring.io/</a></p>
+</li>
+<li><p>2、选择构建工具 Maven Project、Java、Spring Boot 版本 2.1.5 以及一些工程基本信息，可参考下图<br>  所示：<br><img src="/uploads/springBoot_01.jpg" alt></p>
+</li>
+<li><p>3、点击 Generate Project 下载项目压缩包</p>
+</li>
+<li><p>4、解压后，使用 Idea 导入项目，File -&gt; New -&gt; Model from Existing Source.. -&gt; 选择解压后的文件夹<br>   -&gt; OK，选择 Maven 一路 Next，OK done!</p>
+</li>
+<li>5、如果使用的是 Eclipse，Import -&gt; Existing Maven Projects -&gt; Next -&gt; 选择解压后的文件夹 -&gt;<br>  Finsh，OK done!</li>
+</ul>
+<h3 id="Idea-构建项目"><a href="#Idea-构建项目" class="headerlink" title="Idea 构建项目"></a><strong>Idea 构建项目</strong></h3><ul>
+<li>1、选择 File -&gt; New —&gt; Project… 弹出新建项目的框</li>
+<li>2、选择 Spring Initializr，Next 也会出现上述类似的配置界面，Idea 帮我们做了集成</li>
+<li>3、填写相关内容后，点击 Next 选择依赖的包再点击 Next，最后确定信息无误点击 Finish。</li>
+</ul>
+<h3 id="项目结构介绍"><a href="#项目结构介绍" class="headerlink" title="项目结构介绍"></a><font color="gray">项目结构介绍</font></h3><p><img src="https://images2015.cnblogs.com/blog/331425/201607/331425-20160712105138029-1564953731.png" alt></p>
+<p>如上图所示，Spring Boot的基础结构共三个文件:</p>
+<ul>
+<li><p>src/main/java  程序开发以及主程序入口</p>
+</li>
+<li><p>src/main/resources 配置文件</p>
+</li>
+<li><p>src/test/java  测试程序  </p>
+</li>
+</ul>
+<p>另外，spingboot建议的目录结果如下：</p>
+<p>root package结构：com.example.myproject</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">com</span><br><span class="line">  +- example</span><br><span class="line">    +- myproject</span><br><span class="line">      +- Application.java</span><br><span class="line">      |</span><br><span class="line">      +- domain</span><br><span class="line">      |  +- Customer.java</span><br><span class="line">      |  +- CustomerRepository.java</span><br><span class="line">      |</span><br><span class="line">      +- service</span><br><span class="line">      |  +- CustomerService.java</span><br><span class="line">      |</span><br><span class="line">      +- controller</span><br><span class="line">      |  +- CustomerController.java</span><br><span class="line">      |</span><br></pre></td></tr></table></figure>
+<p>1、<strong>Application.java</strong> 建议放到跟目录下面,主要用于做一些框架配置</p>
+<p>2、<strong>domain</strong>目录主要用于实体（Entity）与数据访问层（Repository）</p>
+<p>3、<strong>service</strong> 层主要是业务类代码</p>
+<p>4、<strong>controller</strong> 负责页面访问控制</p>
+<p>采用默认配置可以省去很多配置，当然也可以根据自己的喜欢来进行更改<br>最后，启动Application main方法，至此一个java项目搭建好了！</p>
+<h2 id="引入-Web-模块"><a href="#引入-Web-模块" class="headerlink" title="引入 Web 模块"></a><strong>引入 Web 模块</strong></h2><p>1、pom.xml中添加支持web的模块：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">       &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</span><br><span class="line">       &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure></p>
+<p>pom.xml文件中默认有两个模块：</p>
+<p><em>spring-boot-starter</em>：核心模块，包括自动配置支持、日志和YAML；</p>
+<p><em>spring-boot-starter-test</em>：测试模块，包括JUnit、Hamcrest、Mockito。</p>
+<p> 2、编写controller内容<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">@RestController</span><br><span class="line">public class HelloWorldController &#123;</span><br><span class="line">    @RequestMapping(&quot;/hello&quot;)</span><br><span class="line">    public String index() &#123;</span><br><span class="line">        return &quot;Hello World&quot;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>@RestController的意思就是controller里面的方法都以json格式输出，不用再写什么jackjson配置的了！</p>
+<p>3、启动主程序，打开浏览器访问<a href="http://localhost:8080/hello" target="_blank" rel="noopener">http://localhost:8080/hello</a>, 就可以看到效果了，是不是很简单粗暴！</p>
+<h3 id="如何做单元测试"><a href="#如何做单元测试" class="headerlink" title="如何做单元测试"></a>如何做单元测试</h3><p>打开的src/test/下的测试入口，编写简单的http请求来测试；使用mockmvc进行，利用MockMvcResultHandlers.print()<br>打印出执行结果。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">  @RunWith(SpringRunner.class)</span><br><span class="line">  @SpringBootTest</span><br><span class="line"></span><br><span class="line">    public class HelloWorldControlerTests &#123;</span><br><span class="line">        private MockMvc mvc;</span><br><span class="line">        @Before</span><br><span class="line">        public void setUp() throws Exception &#123;</span><br><span class="line">            mvc = MockMvcBuilders.standaloneSetup(new HelloWorldController()).build();</span><br><span class="line">        &#125;</span><br><span class="line">        @Test</span><br><span class="line">        public void getHello() throws Exception &#123;</span><br><span class="line">        mvc.perform(MockMvcRequestBuilders.get(&quot;/hello&quot;).accept(MediaType.APPLICATION_JSON))</span><br><span class="line">                .andExpect(MockMvcResultMatchers.status().isOk())</span><br><span class="line">                .andDo(MockMvcResultHandlers.print())</span><br><span class="line">                .andReturn();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="开发环境的调试"><a href="#开发环境的调试" class="headerlink" title="开发环境的调试"></a>开发环境的调试</h3><p>热启动在正常开发项目中已经很常见了吧，虽然平时开发 web 项目过程中，改动项目启重启总是报错；但 Spring Boot<br>对调试支持很好，修改之后可以实时生效，需要添加以下的配置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependencies&gt;</span><br><span class="line"></span><br><span class="line">    &lt;dependency&gt;</span><br><span class="line"></span><br><span class="line">        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</span><br><span class="line"></span><br><span class="line">        &lt;artifactId&gt;spring-boot-devtools&lt;/artifactId&gt;</span><br><span class="line"></span><br><span class="line">        &lt;optional&gt;true&lt;/optional&gt;</span><br><span class="line"></span><br><span class="line">   &lt;/dependency&gt;</span><br><span class="line"></span><br><span class="line">&lt;/dependencies&gt;</span><br><span class="line"></span><br><span class="line">&lt;build&gt;</span><br><span class="line"></span><br><span class="line">    &lt;plugins&gt;</span><br><span class="line"></span><br><span class="line">        &lt;plugin&gt;</span><br><span class="line"></span><br><span class="line">            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</span><br><span class="line"></span><br><span class="line">            &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;</span><br><span class="line"></span><br><span class="line">            &lt;configuration&gt;</span><br><span class="line"></span><br><span class="line">                &lt;fork&gt;true&lt;/fork&gt;</span><br><span class="line"></span><br><span class="line">            &lt;/configuration&gt;</span><br><span class="line"></span><br><span class="line">        &lt;/plugin&gt;</span><br><span class="line"></span><br><span class="line">   &lt;/plugins&gt;</span><br><span class="line"></span><br><span class="line">&lt;/build&gt;</span><br></pre></td></tr></table></figure>
+<p>该模块在完整的打包环境下运行的时候会被禁用。如果你使用java -jar启动应用或者用一个特定的classloader启动，它会认为这是一个“生产环境”。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>使用 Spring Boot 可以非常方便、快速搭建项目，使我们不用关心框架之间的兼容性，适用版本等各种问题，我们想使用任何东西，仅仅添加一个配置就可以，所以使用 Spring Boot 非常适合构建微服务。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+      <div>
         
+
+
+
+  
+
+
+
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>YYcoder</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    
+    <a href="http://YYCoderApe.github.io/2019/05/16/Web后端技术/【SpringBoot学习】/spring-boot-一-：入门篇/" title="Spring Boot(一)：入门篇">http://YYCoderApe.github.io/2019/05/16/Web后端技术/【SpringBoot学习】/spring-boot-一-：入门篇/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/框架学习/" rel="tag"># 框架学习</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
         
+
+        
+
         
           
-        
-        嗯..! 目前共计 9 篇日志。 继续努力。
-      </span>
-      
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2019">2019</h1>
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
           </div>
         
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/04/23/刷题/newcoder/滑动窗口的最大值/" itemprop="url">
-            
-              <span itemprop="name">滑动窗口的最大值</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-23T23:28:45+08:00" content="2019-04-23">
-          04-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+        </div>
+      
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/04/23/刷题/确定字符有无重复/" itemprop="url">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span itemprop="name">确定字符有无重复</span>
+              <a href="/2019/05/14/JavaWeb/【MySQL数据库】/mysql基础笔记（2）-sql语言/" rel="next" title="MySQL基础笔记（2）-- SQL语言">
+                <i class="fa fa-chevron-left"></i> MySQL基础笔记（2）-- SQL语言
+              </a>
             
-          </a>
-        
-      </h2>
+          </div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-23T23:25:26+08:00" content="2019-04-23">
-          04-23
-        </time>
-      </div>
+          <span class="post-nav-divider"></span>
 
-    </header>
-  </article>
-
-
-
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/04/15/uncategorized/hello-world/" itemprop="url">
-            
-              <span itemprop="name">Hello World</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-15T17:28:34+08:00" content="2019-04-15">
-          04-15
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
-    </div>
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div id="gitalk-container">
+    </div>
+    
+  
+
+
 
         </div>
         
@@ -600,8 +776,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -757,6 +942,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#构建微服务：Spring-boot-入门篇"><span class="nav-number">1.</span> <span class="nav-text">构建微服务：Spring boot 入门篇</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是Spring-Boot"><span class="nav-number">1.1.</span> <span class="nav-text">什么是Spring Boot?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用-Spring-Boot有什么好处"><span class="nav-number">1.2.</span> <span class="nav-text">使用 Spring Boot有什么好处</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#其实就是简单、快速、方便！"><span class="nav-number">1.2.1.</span> <span class="nav-text">其实就是简单、快速、方便！</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快速入门"><span class="nav-number">1.3.</span> <span class="nav-text">快速入门</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Maven-构建项目"><span class="nav-number">1.3.1.</span> <span class="nav-text">Maven 构建项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Idea-构建项目"><span class="nav-number">1.3.2.</span> <span class="nav-text">Idea 构建项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#项目结构介绍"><span class="nav-number">1.3.3.</span> <span class="nav-text">项目结构介绍</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引入-Web-模块"><span class="nav-number">1.4.</span> <span class="nav-text">引入 Web 模块</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#如何做单元测试"><span class="nav-number">1.4.1.</span> <span class="nav-text">如何做单元测试</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开发环境的调试"><span class="nav-number">1.4.2.</span> <span class="nav-text">开发环境的调试</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">1.5.</span> <span class="nav-text">总结</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -924,6 +1126,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=6.7.0"></script>
+<script src="/js/src/post-details.js?v=6.7.0"></script>
+
+
 
   
 
@@ -946,6 +1152,32 @@
 
 
 
+
+
+  
+  
+  <script src="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.min.js"></script>
+
+  
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.4.0/dist/gitalk.css">
+
+  
+  
+  <script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+   <script>
+        var gitalk = new Gitalk({
+          clientID: '4299d215807f4eed08fd',
+          clientSecret: 'f3ad3e83e4340880930fad11570a078fbe3ea918',
+          repo: 'YY_Blog',
+          owner: 'YYCoderApe',
+          admin: ['YYCoderApe'],
+          id: md5(location.pathname),
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+       </script>
 
 
   
@@ -1339,7 +1571,7 @@
   <script src="/lib/bookmark/bookmark.min.js?v=1.0"></script>
   <script>
   
-    bookmark.loadBookmark();
+    bookmark.scrollToMark('auto', "#更多");
   
   </script>
 

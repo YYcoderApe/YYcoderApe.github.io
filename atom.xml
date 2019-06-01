@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://YYCoderApe.github.io/"/>
-  <updated>2019-06-01T13:54:07.539Z</updated>
+  <updated>2019-06-01T16:39:32.697Z</updated>
   <id>http://YYCoderApe.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring Boot(一)：入门篇</title>
+    <link href="http://YYCoderApe.github.io/2019/05/16/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/%E3%80%90SpringBoot%E5%AD%A6%E4%B9%A0%E3%80%91/spring-boot-%E4%B8%80-%EF%BC%9A%E5%85%A5%E9%97%A8%E7%AF%87/"/>
+    <id>http://YYCoderApe.github.io/2019/05/16/Web后端技术/【SpringBoot学习】/spring-boot-一-：入门篇/</id>
+    <published>2019-05-16T11:46:20.000Z</published>
+    <updated>2019-06-01T16:39:32.697Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;构建微服务：Spring-boot-入门篇&quot;&gt;&lt;a href=&quot;#构建微服务：Spring-boot-入门篇&quot; class=&quot;headerlink&quot; title=&quot;构建微服务：Spring boot 入门篇&quot;&gt;&lt;/a&gt;&lt;center&gt;&lt;strong&gt;&lt;font
+        
+      
+    
+    </summary>
+    
+      <category term="Web后端技术" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="【SpringBoot学习】" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/%E3%80%90SpringBoot%E5%AD%A6%E4%B9%A0%E3%80%91/"/>
+    
+    
+      <category term="框架学习" scheme="http://YYCoderApe.github.io/tags/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>MySQL基础笔记（2）-- SQL语言</title>
