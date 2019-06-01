@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://YYCoderApe.github.io/"/>
-  <updated>2019-05-12T12:10:04.817Z</updated>
+  <updated>2019-06-01T13:54:07.539Z</updated>
   <id>http://YYCoderApe.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SSM三大框架之---SpringMVC(3)</title>
-    <link href="http://YYCoderApe.github.io/2019/05/12/uncategorized/ssm%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B-springmvc-3/"/>
-    <id>http://YYCoderApe.github.io/2019/05/12/uncategorized/ssm三大框架之-springmvc-3/</id>
-    <published>2019-05-12T11:50:10.000Z</published>
-    <updated>2019-05-12T12:10:04.817Z</updated>
+    <title>MySQL基础笔记（2）-- SQL语言</title>
+    <link href="http://YYCoderApe.github.io/2019/05/14/JavaWeb/%E3%80%90MySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/mysql%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%EF%BC%882%EF%BC%89-sql%E8%AF%AD%E8%A8%80/"/>
+    <id>http://YYCoderApe.github.io/2019/05/14/JavaWeb/【MySQL数据库】/mysql基础笔记（2）-sql语言/</id>
+    <published>2019-05-14T02:25:30.000Z</published>
+    <updated>2019-06-01T13:54:07.539Z</updated>
     
     <summary type="html">
     
@@ -29,11 +29,71 @@
       
         
         
-          &lt;h1 id=&quot;SSM三大框架之—SpringMVC-3&quot;&gt;&lt;a href=&quot;#SSM三大框架之—SpringMVC-3&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;什么是SQL查询语言？&quot;&gt;&lt;a href=&quot;#什么是SQL查询语言？&quot; class=&quot;headerlink&quot; title=&quot;什么是SQL查询语言？&quot;&gt;&lt;/a&gt;什么是SQL查询语言？&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;SQL是Structured Quevy
         
       
     
     </summary>
+    
+      <category term="JavaWeb" scheme="http://YYCoderApe.github.io/categories/JavaWeb/"/>
+    
+      <category term="【MySQL数据库】" scheme="http://YYCoderApe.github.io/categories/JavaWeb/%E3%80%90MySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/"/>
+    
+    
+      <category term="MySQL" scheme="http://YYCoderApe.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL基础笔记（1）-- 数据库的介绍</title>
+    <link href="http://YYCoderApe.github.io/2019/05/13/JavaWeb/%E3%80%90MySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/mysql%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://YYCoderApe.github.io/2019/05/13/JavaWeb/【MySQL数据库】/mysql基础笔记（1）-数据库的介绍/</id>
+    <published>2019-05-13T15:25:26.000Z</published>
+    <updated>2019-06-01T13:34:58.256Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;什么是数据库？&quot;&gt;&lt;a href=&quot;#什么是数据库？&quot; class=&quot;headerlink&quot; title=&quot;什么是数据库？&quot;&gt;&lt;/a&gt;什么是数据库？&lt;/h2&gt;&lt;p&gt;数据库是是按照数据结构来组织、存储和管理数据的仓库。我们一般说的数据库,就是指的DBMS:
+        
+      
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://YYCoderApe.github.io/categories/JavaWeb/"/>
+    
+      <category term="【MySQL数据库】" scheme="http://YYCoderApe.github.io/categories/JavaWeb/%E3%80%90MySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E3%80%91/"/>
+    
+    
+      <category term="MySQL" scheme="http://YYCoderApe.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSM三大框架之---SpringMVC</title>
+    <link href="http://YYCoderApe.github.io/2019/05/12/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/SSM%E6%A1%86%E6%9E%B6-%E3%80%90SpringMVC%E5%AD%A6%E4%B9%A0%E3%80%91/ssm%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B-springmvc/"/>
+    <id>http://YYCoderApe.github.io/2019/05/12/Web后端技术/SSM框架-【SpringMVC学习】/ssm三大框架之-springmvc/</id>
+    <published>2019-05-12T11:50:10.000Z</published>
+    <updated>2019-06-01T14:13:17.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;表现层框架SpringMVC&quot;&gt;&lt;a href=&quot;#表现层框架SpringMVC&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Web后端技术" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="SSM框架--【SpringMVC学习】" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/SSM%E6%A1%86%E6%9E%B6-%E3%80%90SpringMVC%E5%AD%A6%E4%B9%A0%E3%80%91/"/>
     
     
       <category term="框架学习" scheme="http://YYCoderApe.github.io/tags/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/"/>
@@ -41,11 +101,11 @@
   </entry>
   
   <entry>
-    <title>SSM三大框架之---Spring(2)</title>
-    <link href="http://YYCoderApe.github.io/2019/05/12/uncategorized/ssm%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B-spring-2/"/>
-    <id>http://YYCoderApe.github.io/2019/05/12/uncategorized/ssm三大框架之-spring-2/</id>
+    <title>SSM三大框架之---Spring</title>
+    <link href="http://YYCoderApe.github.io/2019/05/12/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/SSM%E6%A1%86%E6%9E%B6-%E3%80%90Spring%E5%AD%A6%E4%B9%A0%E3%80%91/ssm%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B-spring/"/>
+    <id>http://YYCoderApe.github.io/2019/05/12/Web后端技术/SSM框架-【Spring学习】/ssm三大框架之-spring/</id>
     <published>2019-05-12T10:40:36.000Z</published>
-    <updated>2019-05-12T12:02:44.663Z</updated>
+    <updated>2019-06-01T14:13:03.237Z</updated>
     
     <summary type="html">
     
@@ -53,11 +113,44 @@
       
         
         
-          &lt;h1 id=&quot;SSM三大框架之—Spring-2&quot;&gt;&lt;a href=&quot;#SSM三大框架之—Spring-2&quot; class=&quot;headerlink&quot; title=&quot;SSM三大框架之—Spring(2)&quot;&gt;&lt;/a&gt;SSM三大框架之—Spring(2)&lt;/h1&gt;&lt;h2
+          &lt;h2 id=&quot;业务层框架Spring&quot;&gt;&lt;a href=&quot;#业务层框架Spring&quot; class=&quot;headerlink&quot; title=&quot;业务层框架Spring&quot;&gt;&lt;/a&gt;业务层框架Spring&lt;/h2&gt;&lt;p&gt;1.Spring程序开发的基本步骤:&lt;br&gt;&lt;figure
         
       
     
     </summary>
+    
+      <category term="Web后端技术" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="SSM框架--【Spring学习】" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/SSM%E6%A1%86%E6%9E%B6-%E3%80%90Spring%E5%AD%A6%E4%B9%A0%E3%80%91/"/>
+    
+    
+      <category term="框架学习" scheme="http://YYCoderApe.github.io/tags/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSM三大框架之---MyBatis</title>
+    <link href="http://YYCoderApe.github.io/2019/05/12/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/SSM%E6%A1%86%E6%9E%B6-%E3%80%90MyBatis%E5%AD%A6%E4%B9%A0%E3%80%91/ssm%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B-mybatis/"/>
+    <id>http://YYCoderApe.github.io/2019/05/12/Web后端技术/SSM框架-【MyBatis学习】/ssm三大框架之-mybatis/</id>
+    <published>2019-05-12T10:36:22.000Z</published>
+    <updated>2019-06-01T14:13:20.246Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;持久层框架Mybatis&quot;&gt;&lt;a href=&quot;#持久层框架Mybatis&quot; class=&quot;headerlink&quot; title=&quot;持久层框架Mybatis&quot;&gt;&lt;/a&gt;持久层框架Mybatis&lt;/h2&gt;&lt;p&gt;1.MyBatis的基本步骤:  &lt;/p&gt;
+&lt;figure
+        
+      
+    
+    </summary>
+    
+      <category term="Web后端技术" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="SSM框架--【MyBatis学习】" scheme="http://YYCoderApe.github.io/categories/Web%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF/SSM%E6%A1%86%E6%9E%B6-%E3%80%90MyBatis%E5%AD%A6%E4%B9%A0%E3%80%91/"/>
     
     
       <category term="框架学习" scheme="http://YYCoderApe.github.io/tags/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/"/>
@@ -66,10 +159,10 @@
   
   <entry>
     <title>滑动窗口的最大值</title>
-    <link href="http://YYCoderApe.github.io/2019/04/23/%E5%88%B7%E9%A2%98/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/"/>
-    <id>http://YYCoderApe.github.io/2019/04/23/刷题/滑动窗口的最大值/</id>
+    <link href="http://YYCoderApe.github.io/2019/04/23/%E5%88%B7%E9%A2%98/newcoder/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/"/>
+    <id>http://YYCoderApe.github.io/2019/04/23/刷题/newcoder/滑动窗口的最大值/</id>
     <published>2019-04-23T15:28:45.000Z</published>
-    <updated>2019-04-23T15:58:23.288Z</updated>
+    <updated>2019-06-01T12:45:36.665Z</updated>
     
     <summary type="html">
     
@@ -86,30 +179,10 @@
     
       <category term="刷题" scheme="http://YYCoderApe.github.io/categories/%E5%88%B7%E9%A2%98/"/>
     
+      <category term="newcoder" scheme="http://YYCoderApe.github.io/categories/%E5%88%B7%E9%A2%98/newcoder/"/>
+    
     
       <category term="nowcoder" scheme="http://YYCoderApe.github.io/tags/nowcoder/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图片</title>
-    <link href="http://YYCoderApe.github.io/2019/04/23/uncategorized/%E5%9B%BE%E7%89%87/"/>
-    <id>http://YYCoderApe.github.io/2019/04/23/uncategorized/图片/</id>
-    <published>2019-04-23T15:28:45.000Z</published>
-    <updated>2019-04-24T16:22:57.505Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/uploads/six_01.jpg&quot; alt&gt;&lt;br&gt;&lt;img src=&quot;/uploads/six_02.jpg&quot; alt&gt;&lt;br&gt;&lt;img src=&quot;/uploads/six_03.jpg&quot;
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -118,7 +191,7 @@
     <link href="http://YYCoderApe.github.io/2019/04/23/%E5%88%B7%E9%A2%98/%E7%A1%AE%E5%AE%9A%E5%AD%97%E7%AC%A6%E6%9C%89%E6%97%A0%E9%87%8D%E5%A4%8D/"/>
     <id>http://YYCoderApe.github.io/2019/04/23/刷题/确定字符有无重复/</id>
     <published>2019-04-23T15:25:26.000Z</published>
-    <updated>2019-04-23T15:56:23.710Z</updated>
+    <updated>2019-06-01T12:45:27.516Z</updated>
     
     <summary type="html">
     
@@ -137,30 +210,6 @@
     
     
       <category term="nowcoder" scheme="http://YYCoderApe.github.io/tags/nowcoder/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SSM三大框架之---MyBatis(1)</title>
-    <link href="http://YYCoderApe.github.io/2019/04/21/uncategorized/ssm%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B-mybatis-1/"/>
-    <id>http://YYCoderApe.github.io/2019/04/21/uncategorized/ssm三大框架之-mybatis-1/</id>
-    <published>2019-04-21T12:36:22.000Z</published>
-    <updated>2019-05-12T12:10:03.634Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;SSM三大框架之—MyBatis-1&quot;&gt;&lt;a href=&quot;#SSM三大框架之—MyBatis-1&quot; class=&quot;headerlink&quot; title=&quot;SSM三大框架之—MyBatis(1)&quot;&gt;&lt;/a&gt;SSM三大框架之—MyBatis(1)&lt;/h1&gt;&lt;h2
-        
-      
-    
-    </summary>
-    
-    
-      <category term="框架学习" scheme="http://YYCoderApe.github.io/tags/%E6%A1%86%E6%9E%B6%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
