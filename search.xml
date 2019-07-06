@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F07%2F02%2Funcategorized%2F%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[IDEA创建第一个maven-web项目]]></title>
     <url>%2F2019%2F06%2F18%2FIntellij-IDEA%2Fidea%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AAmaven-web%E9%A1%B9%E7%9B%AE%2F</url>
     <content type="text"><![CDATA[IDEA创建WEB项目 用惯了eclipse，这段时间刚接触Idea编辑工具，这款神器是真的好用，兄弟们用起来!!! 但在创建maven web项目的一些步骤有些不熟悉，在这里介绍一下常用的maven web项目的创建过程。 1.步骤一：首先先创建一个project,在这里就是创建一个maven的工作空间 2.步骤二：选择左边的maven，然后在右边Creater from archetype选项前面打个勾,并且选择(maven-archetype-webapp),接着点击next 3.步骤三：填写你的Group Id（一般写公司名）跟 ArtifictId（一般写项目名） 4.步骤四：选择自己下载好的apache-maven. 5.步骤五：继续一路finish，等待idea加载出目录结构如果目录没有出来，则点击更新操作。 6.步骤六：项目的基本目录结构出来后,我们还需为项目配置下编译路径还有artifact，操作如下 7.步骤七：配置tomcat本地服务器，运行项目]]></content>
