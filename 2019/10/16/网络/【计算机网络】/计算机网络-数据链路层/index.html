@@ -107,17 +107,26 @@
 
 
 
-  <meta name="description" content="NeedMoreShare2 for NexT  Installation  Step 1 &amp;rarr; Go to NexT dir  Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json  _co">
-<meta property="og:type" content="website">
-<meta property="og:title" content="YYcoder">
-<meta property="og:url" content="http://YYCoderApe.github.io/lib/needsharebutton/README.html">
+  <meta name="description" content="解决的三大基本问题1. 封装成帧将网络层传下来的分组添加首部和尾部，用于标记帧的开始和结束。在一段数据的前后分别添加首部和尾部（帧定界），这样就构成了一个帧。 最大传送单元MTU —- 数据部分长度上限  2. 透明传输透明表示一个实际存在的事物看起来好像不存在一样。表示无论什么样的比特组合的数据，都能按照原样没有差错地通过这个数据链路图进行传送。 帧使用首部和尾部进行定界，如果帧的数据部分含有和">
+<meta name="keywords" content="网络">
+<meta property="og:type" content="article">
+<meta property="og:title" content="计算机网络--数据链路层">
+<meta property="og:url" content="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-数据链路层/index.html">
 <meta property="og:site_name" content="YYcoder">
-<meta property="og:description" content="NeedMoreShare2 for NexT  Installation  Step 1 &amp;rarr; Go to NexT dir  Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json  _co">
+<meta property="og:description" content="解决的三大基本问题1. 封装成帧将网络层传下来的分组添加首部和尾部，用于标记帧的开始和结束。在一段数据的前后分别添加首部和尾部（帧定界），这样就构成了一个帧。 最大传送单元MTU —- 数据部分长度上限  2. 透明传输透明表示一个实际存在的事物看起来好像不存在一样。表示无论什么样的比特组合的数据，都能按照原样没有差错地通过这个数据链路图进行传送。 帧使用首部和尾部进行定界，如果帧的数据部分含有和">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-21T12:25:21.080Z">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_01.png">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_02.png">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_03.png">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_04.png">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_05.png">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_06.png">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_07.png">
+<meta property="og:updated_time" content="2020-02-06T13:00:32.973Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="YYcoder">
-<meta name="twitter:description" content="NeedMoreShare2 for NexT  Installation  Step 1 &amp;rarr; Go to NexT dir  Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json  _co">
+<meta name="twitter:title" content="计算机网络--数据链路层">
+<meta name="twitter:description" content="解决的三大基本问题1. 封装成帧将网络层传下来的分组添加首部和尾部，用于标记帧的开始和结束。在一段数据的前后分别添加首部和尾部（帧定界），这样就构成了一个帧。 最大传送单元MTU —- 数据部分长度上限  2. 透明传输透明表示一个实际存在的事物看起来好像不存在一样。表示无论什么样的比特组合的数据，都能按照原样没有差错地通过这个数据链路图进行传送。 帧使用首部和尾部进行定界，如果帧的数据部分含有和">
+<meta name="twitter:image" content="http://yycoderape.github.io/uploads/计算机网络/数据链路层_01.png">
 
 
 
@@ -126,7 +135,7 @@
 
 
 
-  <link rel="canonical" href="http://YYCoderApe.github.io/lib/needsharebutton/README.html">
+  <link rel="canonical" href="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-数据链路层/">
 
 
 
@@ -136,7 +145,7 @@
   };
 </script>
 
-  <title> | YYcoder</title>
+  <title>计算机网络--数据链路层 | YYcoder</title>
   
 
 
@@ -407,164 +416,318 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-数据链路层/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="YYcoder">
+      <meta itemprop="description" content="打码如此快乐">
+      <meta itemprop="image" content="/images/头像1.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="YYcoder">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-  
-  
-  <ul class="breadcrumb">
-    
-      
-      
         
+        
+          <h1 class="post-title" itemprop="name headline">计算机网络--数据链路层
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-10-16 19:46:20" itemprop="dateCreated datePublished" datetime="2019-10-16T19:46:20+08:00">2019-10-16</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-02-06 21:00:32" itemprop="dateModified" datetime="2020-02-06T21:00:32+08:00">2020-02-06</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/网络/" itemprop="url" rel="index"><span itemprop="name">网络</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/网络/【计算机网络】/" itemprop="url" rel="index"><span itemprop="name">【计算机网络】</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
           
             
           
-          <li><a href="/lib/">LIB</a></li>
-        
-      
-    
-      
-      
-        
-          <li>NEEDSHAREBUTTON</li>
-        
-      
-    
-      
-      
-        
+
           
-            
           
-          <li><a href="/lib/README.html/">README.HTML</a></li>
-        
-      
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">2.2k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">2 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
     
-  </ul>
 
-
-</div>
-
-</header>
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
       
+
       
-      <div class="post-body">
-        
-        
-          <h1 align="center"><a href="https://github.com/revir/need-more-share2" target="_blank" rel="noopener">NeedMoreShare2</a> for <a href="https://github.com/theme-next" target="_blank" rel="noopener">NexT</a></h1>
+        <h1 id="解决的三大基本问题"><a href="#解决的三大基本问题" class="headerlink" title="解决的三大基本问题"></a>解决的三大基本问题</h1><h2 id="1-封装成帧"><a href="#1-封装成帧" class="headerlink" title="1. 封装成帧"></a>1. 封装成帧</h2><p>将网络层传下来的分组添加首部和尾部，用于标记帧的开始和结束。在一段数据的前后分别添加首部和尾部（帧定界），这样就构成了一个帧。</p>
+<p><img src="/uploads/计算机网络/数据链路层_01.png" alt><br><strong>最大传送单元MTU —- 数据部分长度上限</strong></p>
+<p><img src="/uploads/计算机网络/数据链路层_02.png" alt></p>
+<h2 id="2-透明传输"><a href="#2-透明传输" class="headerlink" title="2. 透明传输"></a>2. 透明传输</h2><p>透明表示一个实际存在的事物看起来好像不存在一样。表示无论什么样的比特组合的数据，都能按照原样没有差错地通过这个数据链路图进行传送。<br><img src="/uploads/计算机网络/数据链路层_03.png" alt></p>
+<p>帧使用首部和尾部进行定界，如果帧的数据部分含有和首部尾部相同的内容，那么帧的开始和结束位置就会被错误的判定。需要在数据部分出现首部尾部相同的内容前面插入转义字符。如果数据部分出现转义字符，那么就在转义字符前面再加个转义字符。可以通过字节填充或者字符填充的方法进行处理，在接收端进行处理之后可以还原出原始数据。这个过程透明传输的内容是转义字符，用户察觉不到转义字符的存在。</p>
+<h2 id="3-差错检测"><a href="#3-差错检测" class="headerlink" title="3. 差错检测"></a>3. 差错检测</h2><p>比特差错：11可能变成0，0可能变成1<br>目前数据链路层广泛使用了循环冗余检验（CRC）来检查比特差错。凡是接收端数据链路层接受的帧均无差错。<br><img src="/uploads/计算机网络/数据链路层_04.png" alt></p>
+<p>异或运算。除数有4为，所以需要加3个0。<br><img src="/uploads/计算机网络/数据链路层_05.png" alt><br><img src="/uploads/计算机网络/数据链路层_06.png" alt><br><img src="/uploads/计算机网络/数据链路层_07.png" alt></p>
+<h1 id="信道分类"><a href="#信道分类" class="headerlink" title="信道分类"></a>信道分类</h1><h2 id="1-广播信道"><a href="#1-广播信道" class="headerlink" title="1. 广播信道"></a>1. 广播信道</h2><p>一对多通信，一个节点发送的数据能够被广播信道上所有的节点接收到。<br>所有的节点都在同一个广播信道上发送数据，因此需要有专门的控制方法进行协调，避免发生冲突（冲突也叫碰撞）。<br>主要有两种控制方法进行协调，一个是使用信道复用技术，一是使用 CSMA/CD 协议。</p>
+<h2 id="2-点对点信道"><a href="#2-点对点信道" class="headerlink" title="2. 点对点信道"></a>2. 点对点信道</h2><p>一对一通信。</p>
+<p>因为不会发生碰撞，因此也比较简单，使用 PPP 协议进行控制。</p>
+<h1 id="CSMA-CD-协议"><a href="#CSMA-CD-协议" class="headerlink" title="CSMA/CD 协议"></a>CSMA/CD 协议</h1><p>CSMA/CD 表示载波监听多点接入 / 碰撞检测。</p>
+<p>多点接入 ：说明这是总线型网络，许多主机以多点的方式连接到总线上。<br>载波监听 ：每个主机都必须不停地监听信道。在发送前，如果监听到信道正在使用，就必须等待。<br>碰撞检测 ：在发送中，如果监听到信道已有其它主机正在发送数据，就表示发生了碰撞。虽然每个主机在发送数据之前都已经监听到信道为空闲，但是由于电磁波的传播时延的存在，还是有可能会发生碰撞。<br>记端到端的传播时延为 τ，最先发送的站点最多经过 2τ 就可以知道是否发生了碰撞，称 2τ 为 争用期 。只有经过争用期之后还没有检测到碰撞，才能肯定这次发送不会发生碰撞。</p>
+<p>当发生碰撞时，站点要停止发送，等待一段时间再发送。这个时间采用 截断二进制指数退避算法 来确定。从离散的整数集合 {0, 1, .., (2k-1)} 中随机取出一个数，记作 r，然后取 r 倍的争用期作为重传等待时间。</p>
+<h1 id="PPP-协议"><a href="#PPP-协议" class="headerlink" title="PPP 协议"></a>PPP 协议</h1><p>互联网用户通常需要连接到某个 ISP 之后才能接入到互联网，PPP 协议是用户计算机和 ISP 进行通信时所使用的数据链路层协议。</p>
+<p>PPP 的帧格式：</p>
+<p>F 字段为帧的定界符<br>A 和 C 字段暂时没有意义<br>FCS 字段是使用 CRC 的检验序列<br>信息部分的长度不超过 1500</p>
+<h1 id="MAC-地址"><a href="#MAC-地址" class="headerlink" title="MAC 地址"></a>MAC 地址</h1><p>MAC 地址是链路层地址，长度为 6 字节（48 位），用于唯一标识网络适配器（网卡）。</p>
+<p>一台主机拥有多少个网络适配器就有多少个 MAC 地址。例如笔记本电脑普遍存在无线网络适配器和有线网络适配器，因此就有两个 MAC 地址。</p>
+<p>局域网<br>局域网是一种典型的广播信道，主要特点是网络为一个单位所拥有，且地理范围和站点数目均有限。</p>
+<p>主要有以太网、令牌环网、FDDI 和 ATM 等局域网技术，目前以太网占领着有线局域网市场。</p>
+<p>可以按照网络拓扑结构对局域网进行分类：</p>
+<p>以太网<br>以太网是一种星型拓扑结构局域网。</p>
+<p>早期使用集线器进行连接，集线器是一种物理层设备， 作用于比特而不是帧，当一个比特到达接口时，集线器重新生成这个比特，并将其能量强度放大，从而扩大网络的传输距离，之后再将这个比特发送到其它所有接口。如果集线器同时收到两个不同接口的帧，那么就发生了碰撞。</p>
+<p>目前以太网使用交换机替代了集线器，交换机是一种链路层设备，它不会发生碰撞，能根据 MAC 地址进行存储转发。</p>
+<p>以太网帧格式：</p>
+<p>类型 ：标记上层使用的协议；<br>数据 ：长度在 46-1500 之间，如果太小则需要填充；<br>FCS ：帧检验序列，使用的是 CRC 检验方法；</p>
+<p>交换机<br>交换机具有自学习能力，学习的是交换表的内容，交换表中存储着 MAC 地址到接口的映射。</p>
+<p>正是由于这种自学习能力，因此交换机是一种即插即用设备，不需要网络管理员手动配置交换表内容。</p>
+<p>下图中，交换机有 4 个接口，主机 A 向主机 B 发送数据帧时，交换机把主机 A 到接口 1 的映射写入交换表中。为了发送数据帧到 B，先查交换表，此时没有主机 B 的表项，那么主机 A 就发送广播帧，主机 C 和主机 D 会丢弃该帧，主机 B 回应该帧向主机 A 发送数据包时，交换机查找交换表得到主机 A 映射的接口为 1，就发送数据帧到接口 1，同时交换机添加主机 B 到接口 2 的映射。</p>
+<p>虚拟局域网<br>虚拟局域网可以建立与物理位置无关的逻辑组，只有在同一个虚拟局域网中的成员才会收到链路层广播信息。</p>
+<p>例如下图中 (A1, A2, A3, A4) 属于一个虚拟局域网，A1 发送的广播会被 A2、A3、A4 收到，而其它站点收不到。</p>
+<p>使用 VLAN 干线连接来建立虚拟局域网，每台交换机上的一个特殊接口被设置为干线接口，以互连 VLAN 交换机。IEEE 定义了一种扩展的以太网帧格式 802.1Q，它在标准以太网帧上加进了 4 字节首部 VLAN 标签，用于表示该帧属于哪一个虚拟局域网。</p>
 
-<h1 align="center">Installation</h1>
-
-<h2 align="center">Step 1 &rarr; Go to NexT dir</h2>
-
-<p>Change dir to <strong>NexT</strong> directory. There must be <code>layout</code>, <code>source</code>, <code>languages</code> and other directories:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next</span><br><span class="line">$ ls</span><br><span class="line">bower.json  _config.yml  docs  gulpfile.coffee  languages  layout  LICENSE.md  package.json  README.md  scripts  <span class="built_in">source</span>  <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
-<h2 align="center">Step 2 &rarr; Get module</h2>
-
-<p>Install module to <code>source/lib</code> directory:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-needmoreshare2 <span class="built_in">source</span>/lib/needsharebutton</span><br></pre></td></tr></table></figure>
-<h2 align="center">Step 3 &rarr; Set it up</h2>
-
-<p>Enable module in <strong>NexT</strong> <code>_config.yml</code> file:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">needmoreshare2:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  postbottom:</span></span><br><span class="line"><span class="attr">    enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  float:</span></span><br><span class="line"><span class="attr">    enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h1 align="center">Update</h1>
-
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next/<span class="built_in">source</span>/lib/needsharebutton</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
-
-        
-      </div>
-      
-      
       
     </div>
+
     
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+      <div>
+        
+
 
 
   
+
+
+
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>YYcoder</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    
+    <a href="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-数据链路层/" title="计算机网络--数据链路层">http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-数据链路层/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/网络/" rel="tag"># 网络</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/10/16/网络/【计算机网络】/计算机网络-物理层/" rel="next" title="计算机网络--物理层">
+                <i class="fa fa-chevron-left"></i> 计算机网络--物理层
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/02/06/uncategorized/" rel="prev" title>
+                 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
   
-  <ul class="breadcrumb">
-    
-      
-      
-        
-          
-            
-          
-          <li><a href="/lib/">LIB</a></li>
-        
-      
-    
-      
-      
-        
-          <li>NEEDSHAREBUTTON</li>
-        
-      
-    
-      
-      
-        
-          
-            
-          
-          <li><a href="/lib/README.html/">README.HTML</a></li>
-        
-      
-    
-  </ul>
+  
+  
+  </article>
 
 
-    
-    
-    
   </div>
 
 
@@ -803,7 +966,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">NeedMoreShare2 for NexT</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">Installation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">2.1.</span> <span class="nav-text">Step 1 → Go to NexT dir</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">2.2.</span> <span class="nav-text">Step 2 → Get module</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">2.3.</span> <span class="nav-text">Step 3 → Set it up</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">3.</span> <span class="nav-text">Update</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#解决的三大基本问题"><span class="nav-number">1.</span> <span class="nav-text">解决的三大基本问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-封装成帧"><span class="nav-number">1.1.</span> <span class="nav-text">1. 封装成帧</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-透明传输"><span class="nav-number">1.2.</span> <span class="nav-text">2. 透明传输</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-差错检测"><span class="nav-number">1.3.</span> <span class="nav-text">3. 差错检测</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#信道分类"><span class="nav-number">2.</span> <span class="nav-text">信道分类</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-广播信道"><span class="nav-number">2.1.</span> <span class="nav-text">1. 广播信道</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-点对点信道"><span class="nav-number">2.2.</span> <span class="nav-text">2. 点对点信道</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CSMA-CD-协议"><span class="nav-number">3.</span> <span class="nav-text">CSMA/CD 协议</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PPP-协议"><span class="nav-number">4.</span> <span class="nav-text">PPP 协议</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#MAC-地址"><span class="nav-number">5.</span> <span class="nav-text">MAC 地址</span></a></li></ol></div>
             
 
           </div>
@@ -1421,7 +1584,7 @@
   <script src="/lib/bookmark/bookmark.min.js?v=1.0"></script>
   <script>
   
-    bookmark.loadBookmark();
+    bookmark.scrollToMark('auto', "#更多");
   
   </script>
 
