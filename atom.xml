@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://YYCoderApe.github.io/"/>
-  <updated>2020-02-06T01:49:50.184Z</updated>
+  <updated>2020-02-06T13:07:03.254Z</updated>
   <id>http://YYCoderApe.github.io/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://YYCoderApe.github.io/2020/02/06/uncategorized//"/>
-    <id>http://YYCoderApe.github.io/2020/02/06/uncategorized//</id>
-    <published>2020-02-06T01:49:50.184Z</published>
-    <updated>2020-02-06T01:49:50.184Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>计算机网络--传输层</title>
@@ -128,6 +114,34 @@
         
         
           &lt;article class=&quot;markdown-body entry-content p-3 p-md-6&quot; itemprop=&quot;text&quot;&gt;&lt;br&gt;&lt;ul&gt;&lt;br&gt;&lt;li&gt;&lt;a href=&quot;#%E6%A6%82%E8%BF%B0&quot;&gt;概述&lt;/a&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="网络" scheme="http://YYCoderApe.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="【计算机网络】" scheme="http://YYCoderApe.github.io/categories/%E7%BD%91%E7%BB%9C/%E3%80%90%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E3%80%91/"/>
+    
+    
+      <category term="网络" scheme="http://YYCoderApe.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络--应用层</title>
+    <link href="http://YYCoderApe.github.io/2019/10/16/%E7%BD%91%E7%BB%9C/%E3%80%90%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E3%80%91/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E5%BA%94%E7%94%A8%E5%B1%82/"/>
+    <id>http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-应用层/</id>
+    <published>2019-10-16T11:46:20.000Z</published>
+    <updated>2020-02-06T13:09:15.050Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;article class=&quot;markdown-body entry-content p-3 p-md-6&quot; itemprop=&quot;text&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;&lt;a id=&quot;user-content-域名系统&quot; class=&quot;anchor&quot;
         
       
     

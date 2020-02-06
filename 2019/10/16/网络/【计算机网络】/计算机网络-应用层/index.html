@@ -107,17 +107,25 @@
 
 
 
-  <meta name="description" content="打码如此快乐">
+  <meta name="description" content="域名系统DNS 是一个分布式数据库，提供了主机名和 IP 地址之间相互转换的服务。这里的分布式数据库是指，每个站点只保留它自己的那部分数据。域名具有层次结构，从上到下依次为：根域名、顶级域名、二级域名。  DNS 可以使用 UDP 或者 TCP 进行传输，使用的端口号都为 53。大多数情况下 DNS 使用 UDP 进行传输，这就要求域名解析器和域名服务器都必须自己处理超时和重传从而保证可靠性。在两">
+<meta name="keywords" content="网络">
 <meta property="og:type" content="article">
-<meta property="og:title" content="YYcoder">
-<meta property="og:url" content="http://YYCoderApe.github.io/2020/02/06/uncategorized//index.html">
+<meta property="og:title" content="计算机网络--应用层">
+<meta property="og:url" content="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-应用层/index.html">
 <meta property="og:site_name" content="YYcoder">
-<meta property="og:description" content="打码如此快乐">
+<meta property="og:description" content="域名系统DNS 是一个分布式数据库，提供了主机名和 IP 地址之间相互转换的服务。这里的分布式数据库是指，每个站点只保留它自己的那部分数据。域名具有层次结构，从上到下依次为：根域名、顶级域名、二级域名。  DNS 可以使用 UDP 或者 TCP 进行传输，使用的端口号都为 53。大多数情况下 DNS 使用 UDP 进行传输，这就要求域名解析器和域名服务器都必须自己处理超时和重传从而保证可靠性。在两">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-02-06T01:49:50.184Z">
+<meta property="og:image" content="https://camo.githubusercontent.com/76be408d68197e56cf637e1cb3f0e84047bfe00a/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f62353465656231362d306230652d343834632d626536322d3330366635376334306437372e6a7067">
+<meta property="og:image" content="https://camo.githubusercontent.com/3e8b5f87cc9c3c50125b6986c6f0bef97a9e6971/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f30336634373934302d333834332d346235312d396534322d3564636166663434383538622e6a7067">
+<meta property="og:image" content="https://camo.githubusercontent.com/507ad532cd37bd8def68cc8abe7fad6eeb8e6746/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f62653563326336312d383664322d346462612d613238392d6234386561323332313964652e6a7067">
+<meta property="og:image" content="https://camo.githubusercontent.com/9367cee843be590f3057198f6240f201bf36b930/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f32333231396534632d396663302d343035312d623333612d3262643935626630353461622e6a7067">
+<meta property="og:image" content="https://camo.githubusercontent.com/c1580443e73e0c0abf9ba9d724f7a882f802afca/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f37623365666139392d643330362d343938322d386366622d6537313533633333616162342e706e67">
+<meta property="og:image" content="https://camo.githubusercontent.com/37d5da4051775f8a58bb9da10ca81eb159712311/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f65643535323262622d336136302d343831632d383635342d3433653731393561343866652e706e67">
+<meta property="og:updated_time" content="2020-02-06T13:09:15.050Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="YYcoder">
-<meta name="twitter:description" content="打码如此快乐">
+<meta name="twitter:title" content="计算机网络--应用层">
+<meta name="twitter:description" content="域名系统DNS 是一个分布式数据库，提供了主机名和 IP 地址之间相互转换的服务。这里的分布式数据库是指，每个站点只保留它自己的那部分数据。域名具有层次结构，从上到下依次为：根域名、顶级域名、二级域名。  DNS 可以使用 UDP 或者 TCP 进行传输，使用的端口号都为 53。大多数情况下 DNS 使用 UDP 进行传输，这就要求域名解析器和域名服务器都必须自己处理超时和重传从而保证可靠性。在两">
+<meta name="twitter:image" content="https://camo.githubusercontent.com/76be408d68197e56cf637e1cb3f0e84047bfe00a/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f62353465656231362d306230652d343834632d626536322d3330366635376334306437372e6a7067">
 
 
 
@@ -126,7 +134,7 @@
 
 
 
-  <link rel="canonical" href="http://YYCoderApe.github.io/2020/02/06/uncategorized//">
+  <link rel="canonical" href="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-应用层/">
 
 
 
@@ -136,7 +144,7 @@
   };
 </script>
 
-  <title> | YYcoder</title>
+  <title>计算机网络--应用层 | YYcoder</title>
   
 
 
@@ -427,7 +435,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://YYCoderApe.github.io/2020/02/06/uncategorized/">
+    <link itemprop="mainEntityOfPage" href="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-应用层/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YYcoder">
@@ -444,7 +452,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">计算机网络--应用层
 
               
             
@@ -470,12 +478,53 @@
                 
               
 
-              <time title="创建时间：2020-02-06 09:49:50" itemprop="dateCreated datePublished" datetime="2020-02-06T09:49:50+08:00">2020-02-06</time>
+              <time title="创建时间：2019-10-16 19:46:20" itemprop="dateCreated datePublished" datetime="2019-10-16T19:46:20+08:00">2019-10-16</time>
             
 
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-02-06 21:09:15" itemprop="dateModified" datetime="2020-02-06T21:09:15+08:00">2020-02-06</time>
+              
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/网络/" itemprop="url" rel="index"><span itemprop="name">网络</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/网络/【计算机网络】/" itemprop="url" rel="index"><span itemprop="name">【计算机网络】</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -505,7 +554,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">0</span>
+                <span title="本文字数">3.5k</span>
               
 
               
@@ -519,7 +568,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 分钟</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -539,7 +588,7 @@
       
 
       
-        
+        <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><br><br><h1><a id="user-content-域名系统" class="anchor" aria-hidden="true" href="#域名系统"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>域名系统</h1><br><p>DNS 是一个分布式数据库，提供了主机名和 IP 地址之间相互转换的服务。这里的分布式数据库是指，每个站点只保留它自己的那部分数据。</p><br><p>域名具有层次结构，从上到下依次为：根域名、顶级域名、二级域名。</p><br><div align="center"> <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/76be408d68197e56cf637e1cb3f0e84047bfe00a/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f62353465656231362d306230652d343834632d626536322d3330366635376334306437372e6a7067"><img src="https://camo.githubusercontent.com/76be408d68197e56cf637e1cb3f0e84047bfe00a/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f62353465656231362d306230652d343834632d626536322d3330366635376334306437372e6a7067" data-canonical-src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/b54eeb16-0b0e-484c-be62-306f57c40d77.jpg" style="max-width:100%;"></a> </div><br><br><p>DNS 可以使用 UDP 或者 TCP 进行传输，使用的端口号都为 53。大多数情况下 DNS 使用 UDP 进行传输，这就要求域名解析器和域名服务器都必须自己处理超时和重传从而保证可靠性。在两种情况下会使用 TCP 进行传输：</p><br><ul><br><li>如果返回的响应超过的 512 字节（UDP 最大只支持 512 字节的数据）。</li><br><li>区域传送（区域传送是主域名服务器向辅助域名服务器传送变化的那部分数据）。</li><br></ul><br><h1><a id="user-content-文件传送协议" class="anchor" aria-hidden="true" href="#文件传送协议"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>文件传送协议</h1><br><p>FTP 使用 TCP 进行连接，它需要两个连接来传送一个文件：</p><br><ul><br><li>控制连接：服务器打开端口号 21 等待客户端的连接，客户端主动建立连接后，使用这个连接将客户端的命令传送给服务器，并传回服务器的应答。</li><br><li>数据连接：用来传送一个文件数据。</li><br></ul><br><p>根据数据连接是否是服务器端主动建立，FTP 有主动和被动两种模式：</p><br><ul><br><li>主动模式：服务器端主动建立数据连接，其中服务器端的端口号为 20，客户端的端口号随机，但是必须大于 1024，因为 0~1023 是熟知端口号。</li><br></ul><br><div align="center"> <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/3e8b5f87cc9c3c50125b6986c6f0bef97a9e6971/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f30336634373934302d333834332d346235312d396534322d3564636166663434383538622e6a7067"><img src="https://camo.githubusercontent.com/3e8b5f87cc9c3c50125b6986c6f0bef97a9e6971/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f30336634373934302d333834332d346235312d396534322d3564636166663434383538622e6a7067" data-canonical-src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/03f47940-3843-4b51-9e42-5dcaff44858b.jpg" style="max-width:100%;"></a> </div><br><br><ul><br><li>被动模式：客户端主动建立数据连接，其中客户端的端口号由客户端自己指定，服务器端的端口号随机。</li><br></ul><br><div align="center"> <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/507ad532cd37bd8def68cc8abe7fad6eeb8e6746/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f62653563326336312d383664322d346462612d613238392d6234386561323332313964652e6a7067"><img src="https://camo.githubusercontent.com/507ad532cd37bd8def68cc8abe7fad6eeb8e6746/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f62653563326336312d383664322d346462612d613238392d6234386561323332313964652e6a7067" data-canonical-src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/be5c2c61-86d2-4dba-a289-b48ea23219de.jpg" style="max-width:100%;"></a> </div><br><br><p>主动模式要求客户端开放端口号给服务器端，需要去配置客户端的防火墙。被动模式只需要服务器端开放端口号即可，无需客户端配置防火墙。但是被动模式会导致服务器端的安全性减弱，因为开放了过多的端口号。</p><br><h1><a id="user-content-动态主机配置协议" class="anchor" aria-hidden="true" href="#动态主机配置协议"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>动态主机配置协议</h1><br><p>DHCP (Dynamic Host Configuration Protocol) 提供了即插即用的连网方式，用户不再需要手动配置 IP 地址等信息。</p><br><p>DHCP 配置的内容不仅是 IP 地址，还包括子网掩码、网关 IP 地址。</p><br><p>DHCP 工作过程如下：</p><br><ol><br><li>客户端发送 Discover 报文，该报文的目的地址为 255.255.255.255:67，源地址为 0.0.0.0:68，被放入 UDP 中，该报文被广播到同一个子网的所有主机上。如果客户端和 DHCP 服务器不在同一个子网，就需要使用中继代理。</li><br><li>DHCP 服务器收到 Discover 报文之后，发送 Offer 报文给客户端，该报文包含了客户端所需要的信息。因为客户端可能收到多个 DHCP 服务器提供的信息，因此客户端需要进行选择。</li><br><li>如果客户端选择了某个 DHCP 服务器提供的信息，那么就发送 Request 报文给该 DHCP 服务器。</li><br><li>DHCP 服务器发送 Ack 报文，表示客户端此时可以使用提供给它的信息。</li><br></ol><br><div align="center"> <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/9367cee843be590f3057198f6240f201bf36b930/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f32333231396534632d396663302d343035312d623333612d3262643935626630353461622e6a7067"><img src="https://camo.githubusercontent.com/9367cee843be590f3057198f6240f201bf36b930/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f32333231396534632d396663302d343035312d623333612d3262643935626630353461622e6a7067" data-canonical-src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/23219e4c-9fc0-4051-b33a-2bd95bf054ab.jpg" style="max-width:100%;"></a> </div><br><br><h1><a id="user-content-远程登录协议" class="anchor" aria-hidden="true" href="#远程登录协议"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>远程登录协议</h1><br><p>TELNET 用于登录到远程主机上，并且远程主机上的输出也会返回。</p><br><p>TELNET 可以适应许多计算机和操作系统的差异，例如不同操作系统系统的换行符定义。</p><br><h1><a id="user-content-电子邮件协议" class="anchor" aria-hidden="true" href="#电子邮件协议"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>电子邮件协议</h1><br><p>一个电子邮件系统由三部分组成：用户代理、邮件服务器以及邮件协议。</p><br><p>邮件协议包含发送协议和读取协议，发送协议常用 SMTP，读取协议常用 POP3 和 IMAP。</p><br><div align="center"> <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/c1580443e73e0c0abf9ba9d724f7a882f802afca/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f37623365666139392d643330362d343938322d386366622d6537313533633333616162342e706e67"><img src="https://camo.githubusercontent.com/c1580443e73e0c0abf9ba9d724f7a882f802afca/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f37623365666139392d643330362d343938322d386366622d6537313533633333616162342e706e67" width="700" data-canonical-src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/7b3efa99-d306-4982-8cfb-e7153c33aab4.png" style="max-width:100%;"></a> </div><br><br><h2><a id="user-content-1-smtp" class="anchor" aria-hidden="true" href="#1-smtp"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>1. SMTP</h2><br><p>SMTP 只能发送 ASCII 码，而互联网邮件扩充 MIME 可以发送二进制文件。MIME 并没有改动或者取代 SMTP，而是增加邮件主体的结构，定义了非 ASCII 码的编码规则。</p><br><div align="center"> <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/37d5da4051775f8a58bb9da10ca81eb159712311/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f65643535323262622d336136302d343831632d383635342d3433653731393561343866652e706e67"><img src="https://camo.githubusercontent.com/37d5da4051775f8a58bb9da10ca81eb159712311/68747470733a2f2f63732d6e6f7465732d313235363130393739362e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f65643535323262622d336136302d343831632d383635342d3433653731393561343866652e706e67" width data-canonical-src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/ed5522bb-3a60-481c-8654-43e7195a48fe.png" style="max-width:100%;"></a> </div><br><br><h2><a id="user-content-2-pop3" class="anchor" aria-hidden="true" href="#2-pop3"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>2. POP3</h2><br><p>POP3 的特点是只要用户从服务器上读取了邮件，就把该邮件删除。但最新版本的 POP3 可以不删除邮件。</p><br><h2><a id="user-content-3-imap" class="anchor" aria-hidden="true" href="#3-imap"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>3. IMAP</h2><br><p>IMAP 协议中客户端和服务器上的邮件保持同步，如果不手动删除邮件，那么服务器上的邮件也不会被删除。IMAP 这种做法可以让用户随时随地去访问服务器上的邮件。</p><br><h1><a id="user-content-常用端口" class="anchor" aria-hidden="true" href="#常用端口"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>常用端口</h1><br><table><br><thead><br><tr><br><th align="center">应用</th><br><th align="center">应用层协议</th><br><th align="center">端口号</th><br><th align="center">传输层协议</th><br><th align="center">备注</th><br></tr><br></thead><br><tbody><br><tr><br><td align="center">域名解析</td><br><td align="center">DNS</td><br><td align="center">53</td><br><td align="center">UDP/TCP</td><br><td align="center">长度超过 512 字节时使用 TCP</td><br></tr><br><tr><br><td align="center">动态主机配置协议</td><br><td align="center">DHCP</td><br><td align="center">67/68</td><br><td align="center">UDP</td><br><td align="center"></td><br></tr><br><tr><br><td align="center">简单网络管理协议</td><br><td align="center">SNMP</td><br><td align="center">161/162</td><br><td align="center">UDP</td><br><td align="center"></td><br></tr><br><tr><br><td align="center">文件传送协议</td><br><td align="center">FTP</td><br><td align="center">20/21</td><br><td align="center">TCP</td><br><td align="center">控制连接 21，数据连接 20</td><br></tr><br><tr><br><td align="center">远程终端协议</td><br><td align="center">TELNET</td><br><td align="center">23</td><br><td align="center">TCP</td><br><td align="center"></td><br></tr><br><tr><br><td align="center">超文本传送协议</td><br><td align="center">HTTP</td><br><td align="center">80</td><br><td align="center">TCP</td><br><td align="center"></td><br></tr><br><tr><br><td align="center">简单邮件传送协议</td><br><td align="center">SMTP</td><br><td align="center">25</td><br><td align="center">TCP</td><br><td align="center"></td><br></tr><br><tr><br><td align="center">邮件读取协议</td><br><td align="center">POP3</td><br><td align="center">110</td><br><td align="center">TCP</td><br><td align="center"></td><br></tr><br><tr><br><td align="center">网际报文存取协议</td><br><td align="center">IMAP</td><br><td align="center">143</td><br><td align="center">TCP</td><br><td align="center"></td><br></tr><br></tbody><br></table><br><h1><a id="user-content-web-页面请求过程" class="anchor" aria-hidden="true" href="#web-页面请求过程"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Web 页面请求过程</h1><br><h2><a id="user-content-1-dhcp-配置主机信息" class="anchor" aria-hidden="true" href="#1-dhcp-配置主机信息"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>1. DHCP 配置主机信息</h2><br><ul><br><li><br><p>假设主机最开始没有 IP 地址以及其它信息，那么就需要先使用 DHCP 来获取。</p><br></li><br><li><br><p>主机生成一个 DHCP 请求报文，并将这个报文放入具有目的端口 67 和源端口 68 的 UDP 报文段中。</p><br></li><br><li><br><p>该报文段则被放入在一个具有广播 IP 目的地址(255.255.255.255) 和源 IP 地址（0.0.0.0）的 IP 数据报中。</p><br></li><br><li><br><p>该数据报则被放置在 MAC 帧中，该帧具有目的地址 FF:FF:FF:FF:FF:FF，将广播到与交换机连接的所有设备。</p><br></li><br><li><br><p>连接在交换机的 DHCP 服务器收到广播帧之后，不断地向上分解得到 IP 数据报、UDP 报文段、DHCP 请求报文，之后生成 DHCP ACK 报文，该报文包含以下信息：IP 地址、DNS 服务器的 IP 地址、默认网关路由器的 IP 地址和子网掩码。该报文被放入 UDP 报文段中，UDP 报文段有被放入 IP 数据报中，最后放入 MAC 帧中。</p><br></li><br><li><br><p>该帧的目的地址是请求主机的 MAC 地址，因为交换机具有自学习能力，之前主机发送了广播帧之后就记录了 MAC 地址到其转发接口的交换表项，因此现在交换机就可以直接知道应该向哪个接口发送该帧。</p><br></li><br><li><br><p>主机收到该帧后，不断分解得到 DHCP 报文。之后就配置它的 IP 地址、子网掩码和 DNS 服务器的 IP 地址，并在其 IP 转发表中安装默认网关。</p><br></li><br></ul><br><h2><a id="user-content-2-arp-解析-mac-地址" class="anchor" aria-hidden="true" href="#2-arp-解析-mac-地址"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>2. ARP 解析 MAC 地址</h2><br><ul><br><li><br><p>主机通过浏览器生成一个 TCP 套接字，套接字向 HTTP 服务器发送 HTTP 请求。为了生成该套接字，主机需要知道网站的域名对应的 IP 地址。</p><br></li><br><li><br><p>主机生成一个 DNS 查询报文，该报文具有 53 号端口，因为 DNS 服务器的端口号是 53。</p><br></li><br><li><br><p>该 DNS 查询报文被放入目的地址为 DNS 服务器 IP 地址的 IP 数据报中。</p><br></li><br><li><br><p>该 IP 数据报被放入一个以太网帧中，该帧将发送到网关路由器。</p><br></li><br><li><br><p>DHCP 过程只知道网关路由器的 IP 地址，为了获取网关路由器的 MAC 地址，需要使用 ARP 协议。</p><br></li><br><li><br><p>主机生成一个包含目的地址为网关路由器 IP 地址的 ARP 查询报文，将该 ARP 查询报文放入一个具有广播目的地址（FF:FF:FF:FF:FF:FF）的以太网帧中，并向交换机发送该以太网帧，交换机将该帧转发给所有的连接设备，包括网关路由器。</p><br></li><br><li><br><p>网关路由器接收到该帧后，不断向上分解得到 ARP 报文，发现其中的 IP 地址与其接口的 IP 地址匹配，因此就发送一个 ARP 回答报文，包含了它的 MAC 地址，发回给主机。</p><br></li><br></ul><br><h2><a id="user-content-3-dns-解析域名" class="anchor" aria-hidden="true" href="#3-dns-解析域名"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>3. DNS 解析域名</h2><br><ul><br><li><br><p>知道了网关路由器的 MAC 地址之后，就可以继续 DNS 的解析过程了。</p><br></li><br><li><br><p>网关路由器接收到包含 DNS 查询报文的以太网帧后，抽取出 IP 数据报，并根据转发表决定该 IP 数据报应该转发的路由器。</p><br></li><br><li><br><p>因为路由器具有内部网关协议（RIP、OSPF）和外部网关协议（BGP）这两种路由选择协议，因此路由表中已经配置了网关路由器到达 DNS 服务器的路由表项。</p><br></li><br><li><br><p>到达 DNS 服务器之后，DNS 服务器抽取出 DNS 查询报文，并在 DNS 数据库中查找待解析的域名。</p><br></li><br><li><br><p>找到 DNS 记录之后，发送 DNS 回答报文，将该回答报文放入 UDP 报文段中，然后放入 IP 数据报中，通过路由器反向转发回网关路由器，并经过以太网交换机到达主机。</p><br></li><br></ul><br><h2><a id="user-content-4-http-请求页面" class="anchor" aria-hidden="true" href="#4-http-请求页面"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>4. HTTP 请求页面</h2><br><ul><br><li><br><p>有了 HTTP 服务器的 IP 地址之后，主机就能够生成 TCP 套接字，该套接字将用于向 Web 服务器发送 HTTP GET 报文。</p><br></li><br><li><br><p>在生成 TCP 套接字之前，必须先与 HTTP 服务器进行三次握手来建立连接。生成一个具有目的端口 80 的 TCP SYN 报文段，并向 HTTP 服务器发送该报文段。</p><br></li><br><li><br><p>HTTP 服务器收到该报文段之后，生成 TCP SYN ACK 报文段，发回给主机。</p><br></li><br><li><br><p>连接建立之后，浏览器生成 HTTP GET 报文，并交付给 HTTP 服务器。</p><br></li><br><li><br><p>HTTP 服务器从 TCP 套接字读取 HTTP GET 报文，生成一个 HTTP 响应报文，将 Web 页面内容放入报文主体中，发回给主机。</p><br></li><br><li><br><p>浏览器收到 HTTP 响应报文后，抽取出 Web 页面内容，之后进行渲染，显示 Web 页面。</p><br></li><br></ul><br></article>
       
     </div>
 
@@ -572,7 +621,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="http://YYCoderApe.github.io/2020/02/06/uncategorized/">http://YYCoderApe.github.io/2020/02/06/uncategorized/</a>
+    <a href="http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-应用层/" title="计算机网络--应用层">http://YYCoderApe.github.io/2019/10/16/网络/【计算机网络】/计算机网络-应用层/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -582,6 +631,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/网络/" rel="tag"># 网络</a>
+          
+        </div>
       
 
       
@@ -612,8 +667,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/10/16/网络/【计算机网络】/计算机网络-传输层/" rel="next" title="计算机网络--传输层">
-                <i class="fa fa-chevron-left"></i> 计算机网络--传输层
+              <a href="/2019/10/16/网络/【计算机网络】/计算机网络-概述/" rel="next" title="计算机网络--概述">
+                <i class="fa fa-chevron-left"></i> 计算机网络--概述
               </a>
             
           </div>
@@ -621,6 +676,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/10/16/网络/【计算机网络】/计算机网络-网络层/" rel="prev" title="计算机网络--网络层">
+                计算机网络--网络层 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -669,8 +728,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -855,6 +923,23 @@
       </div>
 
       
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">域名系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">文件传送协议</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">3.</span> <span class="nav-text">动态主机配置协议</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">4.</span> <span class="nav-text">远程登录协议</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">5.</span> <span class="nav-text">电子邮件协议</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">5.1.</span> <span class="nav-text">1. SMTP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">5.2.</span> <span class="nav-text">2. POP3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">5.3.</span> <span class="nav-text">3. IMAP</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">6.</span> <span class="nav-text">常用端口</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">7.</span> <span class="nav-text">Web 页面请求过程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">7.1.</span> <span class="nav-text">1. DHCP 配置主机信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">7.2.</span> <span class="nav-text">2. ARP 解析 MAC 地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">7.3.</span> <span class="nav-text">3. DNS 解析域名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">7.4.</span> <span class="nav-text">4. HTTP 请求页面</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
 
       
         <div class="back-to-top">
@@ -885,7 +970,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">62k</span>
+    <span title="站点总字数">66k</span>
   
 
   
@@ -894,7 +979,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">57 分钟</span>
+    <span title="站点阅读时长">1:01</span>
   
 </div>
 
