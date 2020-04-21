@@ -107,27 +107,23 @@
 
 
 
-  <meta name="description" content="算法概念将第一待排序序列第一个元素看做一个有序序列，把第二个元素到最后一个元素当成是未排序序列。从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。） 动画演示插入排序动画演示 参考代码 算法总结直接插入排序是一种最简单的插入排序。  插入排序：每一趟将一个待排序的记录，按照其关键字的大小插入到有序">
+  <meta name="description" content="算法概念首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。重复第二步，直到所有元素均排序完毕。 动画演示 选择排序动画演示  参考代码 排序算法总结简单选择排序是一种选择排序。  选择排序：每趟从待排序的记录中选出关键字最小的记录，顺序放在已排序的记录序列末尾，直到全部排序结束为止。 简单排序处理流程(1)从待排序序">
 <meta name="keywords" content="排序算法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="十大排序（三）--插入排序">
-<meta property="og:url" content="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【十大排序】/十大排序（三）-插入排序/index.html">
+<meta property="og:title" content="排序算法(二)--选择排序">
+<meta property="og:url" content="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【排序算法】/排序算法-二-选择排序/index.html">
 <meta property="og:site_name" content="YYcoder">
-<meta property="og:description" content="算法概念将第一待排序序列第一个元素看做一个有序序列，把第二个元素到最后一个元素当成是未排序序列。从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。） 动画演示插入排序动画演示 参考代码 算法总结直接插入排序是一种最简单的插入排序。  插入排序：每一趟将一个待排序的记录，按照其关键字的大小插入到有序">
+<meta property="og:description" content="算法概念首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。重复第二步，直到所有元素均排序完毕。 动画演示 选择排序动画演示  参考代码 排序算法总结简单选择排序是一种选择排序。  选择排序：每趟从待排序的记录中选出关键字最小的记录，顺序放在已排序的记录序列末尾，直到全部排序结束为止。 简单排序处理流程(1)从待排序序">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入排序.gif">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入_01.jpg">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入_02.jpg">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入_03.jpg">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入_04.jpg">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入_05.jpg">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入_06.jpg">
-<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/插入_07.jpg">
-<meta property="og:updated_time" content="2020-02-07T03:33:40.609Z">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/选择排序.gif">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/选择_01.jpg">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/选择_02.jpg">
+<meta property="og:image" content="http://yycoderape.github.io/uploads/排序算法/选择_03.jpg">
+<meta property="og:updated_time" content="2020-04-21T12:05:22.481Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="十大排序（三）--插入排序">
-<meta name="twitter:description" content="算法概念将第一待排序序列第一个元素看做一个有序序列，把第二个元素到最后一个元素当成是未排序序列。从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。） 动画演示插入排序动画演示 参考代码 算法总结直接插入排序是一种最简单的插入排序。  插入排序：每一趟将一个待排序的记录，按照其关键字的大小插入到有序">
-<meta name="twitter:image" content="http://yycoderape.github.io/uploads/排序算法/插入排序.gif">
+<meta name="twitter:title" content="排序算法(二)--选择排序">
+<meta name="twitter:description" content="算法概念首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。重复第二步，直到所有元素均排序完毕。 动画演示 选择排序动画演示  参考代码 排序算法总结简单选择排序是一种选择排序。  选择排序：每趟从待排序的记录中选出关键字最小的记录，顺序放在已排序的记录序列末尾，直到全部排序结束为止。 简单排序处理流程(1)从待排序序">
+<meta name="twitter:image" content="http://yycoderape.github.io/uploads/排序算法/选择排序.gif">
 
 
 
@@ -136,7 +132,7 @@
 
 
 
-  <link rel="canonical" href="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【十大排序】/十大排序（三）-插入排序/">
+  <link rel="canonical" href="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【排序算法】/排序算法-二-选择排序/">
 
 
 
@@ -146,7 +142,7 @@
   };
 </script>
 
-  <title>十大排序（三）--插入排序 | YYcoder</title>
+  <title>排序算法(二)--选择排序 | YYcoder</title>
   
 
 
@@ -437,7 +433,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【十大排序】/十大排序（三）-插入排序/">
+    <link itemprop="mainEntityOfPage" href="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【排序算法】/排序算法-二-选择排序/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YYcoder">
@@ -454,7 +450,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">十大排序（三）--插入排序
+          <h1 class="post-title" itemprop="name headline">排序算法(二)--选择排序
 
               
             
@@ -497,7 +493,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-02-07 11:33:40" itemprop="dateModified" datetime="2020-02-07T11:33:40+08:00">2020-02-07</time>
+                <time title="修改时间：2020-04-21 20:05:22" itemprop="dateModified" datetime="2020-04-21T20:05:22+08:00">2020-04-21</time>
               
             
           </span>
@@ -521,7 +517,7 @@
                   ，
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/数据结构和算法/【十大排序】/" itemprop="url" rel="index"><span itemprop="name">【十大排序】</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/数据结构和算法/【排序算法】/" itemprop="url" rel="index"><span itemprop="name">【排序算法】</span></a></span>
 
                 
                 
@@ -556,7 +552,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">910</span>
+                <span title="本文字数">3.3k</span>
               
 
               
@@ -570,7 +566,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 分钟</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -590,26 +586,23 @@
       
 
       
-        <h1 id="算法概念"><a href="#算法概念" class="headerlink" title="算法概念"></a>算法概念</h1><p>将第一待排序序列第一个元素看做一个有序序列，把第二个元素到最后一个元素当成是未排序序列。<br>从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。）</p>
-<h1 id="动画演示"><a href="#动画演示" class="headerlink" title="动画演示"></a>动画演示</h1><p><img src="/uploads/排序算法/插入排序.gif" alt><br><strong><center>插入排序动画演示</center></strong></p>
-<h1 id="参考代码"><a href="#参考代码" class="headerlink" title="参考代码"></a>参考代码</h1><p><img src="/uploads/排序算法/插入_01.jpg" alt></p>
-<h1 id="算法总结"><a href="#算法总结" class="headerlink" title="算法总结"></a>算法总结</h1><p>直接插入排序是一种最简单的插入排序。</p>
-<ul>
-<li>插入排序：每一趟将一个待排序的记录，按照其关键字的大小插入到有序队列的合适位置里，知道全部插入完成。</li>
-</ul>
-<p>在讲解直接插入排序之前，先让我们脑补一下我们打牌的过程。<br>先拿一张5在手里，<br>再摸到一张4，比5小，插到5前面，<br>摸到一张6，嗯，比5大，插到5后面，<br>摸到一张8，比6大，插到6后面，<br>。。。<br>最后一看，我靠，凑到全是同花顺，这下牛逼大了。<br><img src="/uploads/排序算法/插入_02.jpg" alt><br>以上的过程，其实就是典型的直接插入排序，每次将一个新数据插入到有序队列中的合适位置里。</p>
-<ul>
-<li>算法步骤<br>假设有一组无序序列 R0, R1, … , RN-1。<br>(1) 我们先将这个序列中下标为 0 的元素视为元素个数为 1 的有序序列。<br>(2) 然后，我们要依次把 R1, R2, … , RN-1 插入到这个有序序列中。所以，我们需要一个外部循环，从下标 1 扫描到 N-1 。<br>(3) 接下来描述插入过程。假设这是要将 Ri 插入到前面有序的序列中。由前面所述，我们可知，插入Ri时，前 i-1 个数肯定已经是有序了。<br>所以我们需要将Ri 和R0 ~ Ri-1 进行比较，确定要插入的合适位置。这就需要一个内部循环，我们一般是从后往前比较，即从下标 i-1 开始向 0 进行扫描。</li>
-</ul>
-<h1 id="核心代码"><a href="#核心代码" class="headerlink" title="核心代码"></a>核心代码</h1><p><img src="/uploads/排序算法/插入_03.jpg" alt></p>
-<p><strong><center>算法分析</center></strong></p>
-<h2 id="算法性能"><a href="#算法性能" class="headerlink" title="算法性能"></a>算法性能</h2><p><img src="/uploads/排序算法/插入_04.jpg" alt></p>
-<h2 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h2><p>1.当数据正序时，执行效率最好，每次插入都不用移动前面的元素，时间复杂度为O(N)。<br>2.当数据反序时，执行效率最差，每次插入都要前面的元素后移，时间复杂度为O(N2)。<br>3.所以，数据越接近正序，直接插入排序的算法性能越好。</p>
-<h2 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h2><p>由直接插入排序算法可知，我们在排序过程中，需要一个临时变量存储要插入的值，所以空间复杂度为 1 。</p>
-<h2 id="算法稳定性"><a href="#算法稳定性" class="headerlink" title="算法稳定性"></a>算法稳定性</h2><p>直接插入排序的过程中，不需要改变相等数值元素的位置，所以它是稳定的算法。</p>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p><img src="/uploads/排序算法/插入_05.jpg" alt><br><img src="/uploads/排序算法/插入_06.jpg" alt></p>
-<h2 id="运行结果"><a href="#运行结果" class="headerlink" title="运行结果"></a>运行结果</h2><p><img src="/uploads/排序算法/插入_07.jpg" alt></p>
+        <h1 id="算法概念"><a href="#算法概念" class="headerlink" title="算法概念"></a>算法概念</h1><p>首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置<br>再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。<br>重复第二步，直到所有元素均排序完毕。</p>
+<h1 id="动画演示"><a href="#动画演示" class="headerlink" title="动画演示"></a>动画演示</h1><p><img src="/uploads/排序算法/选择排序.gif" alt></p>
+<center>选择排序动画演示</center>
 
+<h1 id="参考代码"><a href="#参考代码" class="headerlink" title="参考代码"></a>参考代码</h1><p><img src="/uploads/排序算法/选择_01.jpg" alt></p>
+<h1 id="排序算法总结"><a href="#排序算法总结" class="headerlink" title="排序算法总结"></a>排序算法总结</h1><p>简单选择排序是一种选择排序。</p>
+<ul>
+<li>选择排序：每趟从待排序的记录中选出关键字最小的记录，顺序放在已排序的记录序列末尾，直到全部排序结束为止。</li>
+<li>简单排序处理流程<br>(1)从待排序序列中，找到关键字最小的元素；<br>(2)如果最小元素不是待排序序列的第一个元素，将其和第一个元素互换；<br>(3)从余下的 N - 1 个元素中，找出关键字最小的元素，重复(1)、(2)步，直到排序结束。<br><img src="/uploads/排序算法/选择_02.jpg" alt><br>如图所示，每趟排序中，将当前第 i 小的元素放在位置 i 上。<br>核心代码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">public void selectionSort(int[] list) &#123;</span><br><span class="line">    // 需要遍历获得最小值的次数</span><br><span class="line">    // 要注意一点，当要排序 N 个数，已经经过 N-1 次遍历后，已经是有序数列</span><br><span class="line">    for (int i = 0; i &lt; list.length - 1; i++) &#123;</span><br><span class="line">        int temp = 0;</span><br><span class="line">        int index = i; // 用来保存最小值得索引</span><br><span class="line"></span><br><span class="line">        // 寻找第i个小的数值</span><br><span class="line">        for (int j = i + 1; j &lt; list.length; j++) &#123;</span><br><span class="line">            if (list[index] &gt; list[j]) &#123;</span><br><span class="line">                index = j;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        // 将找到的第i个小的数值放在第i个位置上</span><br><span class="line">        temp = list[index];</span><br><span class="line">        list[index] = list[i];</span><br><span class="line">        list[i] = temp;</span><br><span class="line"></span><br><span class="line">        System.out.format(&quot;第 %d 趟:	&quot;, i + 1);</span><br><span class="line">        printAll(list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><strong><center>算法分析</center></strong></p>
+<h2 id="算法的性能"><a href="#算法的性能" class="headerlink" title="算法的性能"></a>算法的性能</h2><p><img src="/uploads/排序算法/选择_03.jpg" alt></p>
+<h2 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h2><p>简单选择排序的比较次数与序列的初始排序无关。 假设待排序的序列有 N 个元素，则比较次数总是N (N - 1) / 2。<br>而移动次数与序列的初始排序有关。当序列正序时，移动次数最少，为 0.<br>当序列反序时，移动次数最多，为3N (N - 1) /  2。<br>所以，综合以上，简单排序的时间复杂度为O(N2)。</p>
+<h2 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h2><p>简单选择排序需要占用 1 个临时空间，在交换数值时使用。</p>
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">package notes.javase.algorithm.sort;</span><br><span class="line">import java.util.Random; </span><br><span class="line">public class SelectionSort &#123;</span><br><span class="line">    public void selectionSort(int[] list) &#123;</span><br><span class="line">    // 需要遍历获得最小值的次数</span><br><span class="line">    // 要注意一点，当要排序 N 个数，已经经过 N-1 次遍历后，已经是有序数列</span><br><span class="line">         for (int i = 0; i &lt; list.length - 1; i++) &#123;</span><br><span class="line">             int temp = 0;</span><br><span class="line">             int index = i; // 用来保存最小值得索引</span><br><span class="line">            // 寻找第i个小的数值</span><br><span class="line">            for (int j = i + 1; j &lt; list.length; j++) &#123;</span><br><span class="line">                if (list[index] &gt; list[j]) &#123;</span><br><span class="line">                    index = j;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            // 将找到的第i个小的数值放在第i个位置上</span><br><span class="line">            temp = list[index];</span><br><span class="line">            list[index] = list[i];</span><br><span class="line">            list[i] = temp;</span><br><span class="line">            System.out.format(&quot;第 %d 趟:	&quot;, i + 1);</span><br><span class="line">            printAll(list);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  </span><br><span class="line">    // 打印完整序列</span><br><span class="line">    public void printAll(int[] list) &#123;</span><br><span class="line">        for (int value : list) &#123;</span><br><span class="line">            System.out.print(value + &quot;	&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println();</span><br><span class="line">    &#125;</span><br><span class="line">  </span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        // 初始化一个随机序列</span><br><span class="line">        final int MAX_SIZE = 10;</span><br><span class="line">        int[] array = new int[MAX_SIZE];</span><br><span class="line">        Random random = new Random();</span><br><span class="line">        for (int i = 0; i &lt; MAX_SIZE; i++) &#123;</span><br><span class="line">            array[i] = random.nextInt(MAX_SIZE);</span><br><span class="line">        &#125;</span><br><span class="line">        // 调用冒泡排序方法</span><br><span class="line">        SelectionSort selection = new SelectionSort();</span><br><span class="line">        System.out.print(&quot;排序前:	&quot;);</span><br><span class="line">        selection.printAll(array);</span><br><span class="line">        selection.selectionSort(array);</span><br><span class="line">        System.out.print(&quot;排序后:	&quot;);</span><br><span class="line">        selection.printAll(array);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="运行结果"><a href="#运行结果" class="headerlink" title="运行结果"></a>运行结果</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">排序前:   3  5  2  8  1  2  0  8  4  1 </span><br><span class="line">第 1 趟:  0  5  2  8  1  2  3  8  4  1 </span><br><span class="line">第 2 趟:  0  1  2  8  5  2  3  8  4  1 </span><br><span class="line">第 3 趟:  0  1  1  8  5  2  3  8  4  2 </span><br><span class="line">第 4 趟:  0  1  1  2  5  8  3  8  4  2 </span><br><span class="line">第 5 趟:  0  1  1  2  2  8  3  8  4  5 </span><br><span class="line">第 6 趟:  0  1  1  2  2  3  8  8  4  5 </span><br><span class="line">第 7 趟:  0  1  1  2  2  3  4  8  8  5 </span><br><span class="line">第 8 趟:  0  1  1  2  2  3  4  5  8  8 </span><br><span class="line">第 9 趟:  0  1  1  2  2  3  4  5  8  8 </span><br><span class="line">排序后:   0  1  1  2  2  3  4  5  8  8</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -642,7 +635,7 @@
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     
-    <a href="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【十大排序】/十大排序（三）-插入排序/" title="十大排序（三）--插入排序">http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【十大排序】/十大排序（三）-插入排序/</a>
+    <a href="http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【排序算法】/排序算法-二-选择排序/" title="排序算法(二)--选择排序">http://YYCoderApe.github.io/2019/05/16/数据结构和算法/【排序算法】/排序算法-二-选择排序/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li>
@@ -688,8 +681,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/05/16/数据结构和算法/【十大排序】/十大排序-四-希尔排序/" rel="next" title="十大排序(四)--希尔排序">
-                <i class="fa fa-chevron-left"></i> 十大排序(四)--希尔排序
+              <a href="/2019/05/16/数据结构和算法/【排序算法】/排序算法（三）-插入排序/" rel="next" title="排序算法（三）--插入排序">
+                <i class="fa fa-chevron-left"></i> 排序算法（三）--插入排序
               </a>
             
           </div>
@@ -698,8 +691,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/05/16/数据结构和算法/【十大排序】/十大排序-二-选择排序/" rel="prev" title="十大排序(二)--选择排序">
-                十大排序(二)--选择排序 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/06/01/Web后端技术/【Linux学习】/linux学习记录（一）-基础入门篇/" rel="prev" title="Linux学习记录（一）--- 基础入门篇">
+                Linux学习记录（一）--- 基础入门篇 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -776,7 +769,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">32</span>
+                    <span class="site-state-item-count">40</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -823,7 +816,15 @@
                     
                       
                     
-                    <span class="site-state-item-count">17</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">21</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -954,7 +955,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#算法概念"><span class="nav-number">1.</span> <span class="nav-text">算法概念</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#动画演示"><span class="nav-number">2.</span> <span class="nav-text">动画演示</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#参考代码"><span class="nav-number">3.</span> <span class="nav-text">参考代码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#算法总结"><span class="nav-number">4.</span> <span class="nav-text">算法总结</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#核心代码"><span class="nav-number">5.</span> <span class="nav-text">核心代码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#算法性能"><span class="nav-number">5.1.</span> <span class="nav-text">算法性能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#时间复杂度"><span class="nav-number">5.2.</span> <span class="nav-text">时间复杂度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#空间复杂度"><span class="nav-number">5.3.</span> <span class="nav-text">空间复杂度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#算法稳定性"><span class="nav-number">5.4.</span> <span class="nav-text">算法稳定性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码实现"><span class="nav-number">5.5.</span> <span class="nav-text">代码实现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#运行结果"><span class="nav-number">5.6.</span> <span class="nav-text">运行结果</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#算法概念"><span class="nav-number">1.</span> <span class="nav-text">算法概念</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#动画演示"><span class="nav-number">2.</span> <span class="nav-text">动画演示</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#参考代码"><span class="nav-number">3.</span> <span class="nav-text">参考代码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#排序算法总结"><span class="nav-number">4.</span> <span class="nav-text">排序算法总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#算法的性能"><span class="nav-number">4.1.</span> <span class="nav-text">算法的性能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#时间复杂度"><span class="nav-number">4.2.</span> <span class="nav-text">时间复杂度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#空间复杂度"><span class="nav-number">4.3.</span> <span class="nav-text">空间复杂度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码实现"><span class="nav-number">4.4.</span> <span class="nav-text">代码实现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#运行结果"><span class="nav-number">4.5.</span> <span class="nav-text">运行结果</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -991,7 +992,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">74k</span>
+    <span title="站点总字数">123k</span>
   
 
   
@@ -1000,7 +1001,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">1:08</span>
+    <span title="站点阅读时长">1:52</span>
   
 </div>
 
